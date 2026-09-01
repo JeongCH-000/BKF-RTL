@@ -1,0 +1,191 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Aug 31 21:42:31 2026
+| Host         : REDACTED
+| Command      : report_drc -file <USER_HOME>/Verilog/nonPipelined/rbkf_l1/drc_post_route.rpt
+| Design       : rbkf_core
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+-------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: impl_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 30
++-----------+----------+----------------------------+------------+
+| Rule      | Severity | Description                | Violations |
++-----------+----------+----------------------------+------------+
+| CHECK-3   | Warning  | Report rule limit reached  | 1          |
+| DPIP-1    | Warning  | Input pipelining           | 4          |
+| DPOP-1    | Warning  | PREG Output pipelining     | 2          |
+| DPOP-2    | Warning  | MREG Output pipelining     | 2          |
+| REQP-1839 | Warning  | RAMB36 async control check | 20         |
+| ZPS7-1    | Warning  | PS7 block required         | 1          |
++-----------+----------+----------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+CHECK-3#1 Warning
+Report rule limit reached  
+REQP-1839 rule limit reached: 20 violations have been found.
+Related violations: <none>
+
+DPIP-1#1 Warning
+Input pipelining  
+DSP u_engine/multiply_product input u_engine/multiply_product/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#2 Warning
+Input pipelining  
+DSP u_engine/multiply_product input u_engine/multiply_product/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#3 Warning
+Input pipelining  
+DSP u_engine/multiply_product__0 input u_engine/multiply_product__0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#4 Warning
+Input pipelining  
+DSP u_engine/multiply_product__0 input u_engine/multiply_product__0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-1#1 Warning
+PREG Output pipelining  
+DSP u_engine/multiply_product output u_engine/multiply_product/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#2 Warning
+PREG Output pipelining  
+DSP u_engine/multiply_product__0 output u_engine/multiply_product__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-2#1 Warning
+MREG Output pipelining  
+DSP u_engine/multiply_product multiplier stage u_engine/multiply_product/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#2 Warning
+MREG Output pipelining  
+DSP u_engine/multiply_product__0 multiplier stage u_engine/multiply_product__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+REQP-1839#1 Warning
+RAMB36 async control check  
+The RAMB36E1 u_engine/u_arcsine_cov_lut/y_reg_0 has an input control pin u_engine/u_arcsine_cov_lut/y_reg_0/ADDRARDADDR[14] (net: u_engine/u_arcsine_cov_lut/sel[12]) which is driven by a register (u_engine/self_normalized_reg[0][10]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#2 Warning
+RAMB36 async control check  
+The RAMB36E1 u_engine/u_arcsine_cov_lut/y_reg_0 has an input control pin u_engine/u_arcsine_cov_lut/y_reg_0/ADDRARDADDR[14] (net: u_engine/u_arcsine_cov_lut/sel[12]) which is driven by a register (u_engine/self_normalized_reg[0][11]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#3 Warning
+RAMB36 async control check  
+The RAMB36E1 u_engine/u_arcsine_cov_lut/y_reg_0 has an input control pin u_engine/u_arcsine_cov_lut/y_reg_0/ADDRARDADDR[14] (net: u_engine/u_arcsine_cov_lut/sel[12]) which is driven by a register (u_engine/self_normalized_reg[0][13]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#4 Warning
+RAMB36 async control check  
+The RAMB36E1 u_engine/u_arcsine_cov_lut/y_reg_0 has an input control pin u_engine/u_arcsine_cov_lut/y_reg_0/ADDRARDADDR[14] (net: u_engine/u_arcsine_cov_lut/sel[12]) which is driven by a register (u_engine/self_normalized_reg[0][22]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#5 Warning
+RAMB36 async control check  
+The RAMB36E1 u_engine/u_arcsine_cov_lut/y_reg_0 has an input control pin u_engine/u_arcsine_cov_lut/y_reg_0/ADDRARDADDR[14] (net: u_engine/u_arcsine_cov_lut/sel[12]) which is driven by a register (u_engine/self_normalized_reg[0][2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#6 Warning
+RAMB36 async control check  
+The RAMB36E1 u_engine/u_arcsine_cov_lut/y_reg_0 has an input control pin u_engine/u_arcsine_cov_lut/y_reg_0/ADDRARDADDR[14] (net: u_engine/u_arcsine_cov_lut/sel[12]) which is driven by a register (u_engine/self_normalized_reg[0][3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#7 Warning
+RAMB36 async control check  
+The RAMB36E1 u_engine/u_arcsine_cov_lut/y_reg_0 has an input control pin u_engine/u_arcsine_cov_lut/y_reg_0/ADDRARDADDR[14] (net: u_engine/u_arcsine_cov_lut/sel[12]) which is driven by a register (u_engine/self_normalized_reg[0][4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#8 Warning
+RAMB36 async control check  
+The RAMB36E1 u_engine/u_arcsine_cov_lut/y_reg_0 has an input control pin u_engine/u_arcsine_cov_lut/y_reg_0/ADDRARDADDR[14] (net: u_engine/u_arcsine_cov_lut/sel[12]) which is driven by a register (u_engine/self_normalized_reg[0][6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#9 Warning
+RAMB36 async control check  
+The RAMB36E1 u_engine/u_arcsine_cov_lut/y_reg_0 has an input control pin u_engine/u_arcsine_cov_lut/y_reg_0/ADDRARDADDR[14] (net: u_engine/u_arcsine_cov_lut/sel[12]) which is driven by a register (u_engine/self_normalized_reg[0][7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#10 Warning
+RAMB36 async control check  
+The RAMB36E1 u_engine/u_arcsine_cov_lut/y_reg_0 has an input control pin u_engine/u_arcsine_cov_lut/y_reg_0/ADDRARDADDR[14] (net: u_engine/u_arcsine_cov_lut/sel[12]) which is driven by a register (u_engine/self_normalized_reg[1][15]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#11 Warning
+RAMB36 async control check  
+The RAMB36E1 u_engine/u_arcsine_cov_lut/y_reg_0 has an input control pin u_engine/u_arcsine_cov_lut/y_reg_0/ADDRARDADDR[14] (net: u_engine/u_arcsine_cov_lut/sel[12]) which is driven by a register (u_engine/self_normalized_reg[1][16]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#12 Warning
+RAMB36 async control check  
+The RAMB36E1 u_engine/u_arcsine_cov_lut/y_reg_0 has an input control pin u_engine/u_arcsine_cov_lut/y_reg_0/ADDRARDADDR[14] (net: u_engine/u_arcsine_cov_lut/sel[12]) which is driven by a register (u_engine/self_normalized_reg[1][17]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#13 Warning
+RAMB36 async control check  
+The RAMB36E1 u_engine/u_arcsine_cov_lut/y_reg_0 has an input control pin u_engine/u_arcsine_cov_lut/y_reg_0/ADDRARDADDR[14] (net: u_engine/u_arcsine_cov_lut/sel[12]) which is driven by a register (u_engine/self_normalized_reg[1][20]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#14 Warning
+RAMB36 async control check  
+The RAMB36E1 u_engine/u_arcsine_cov_lut/y_reg_0 has an input control pin u_engine/u_arcsine_cov_lut/y_reg_0/ADDRARDADDR[14] (net: u_engine/u_arcsine_cov_lut/sel[12]) which is driven by a register (u_engine/self_normalized_reg[1][21]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#15 Warning
+RAMB36 async control check  
+The RAMB36E1 u_engine/u_arcsine_cov_lut/y_reg_0 has an input control pin u_engine/u_arcsine_cov_lut/y_reg_0/ADDRARDADDR[14] (net: u_engine/u_arcsine_cov_lut/sel[12]) which is driven by a register (u_engine/state_reg[0]_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#16 Warning
+RAMB36 async control check  
+The RAMB36E1 u_engine/u_arcsine_cov_lut/y_reg_0 has an input control pin u_engine/u_arcsine_cov_lut/y_reg_0/ADDRARDADDR[14] (net: u_engine/u_arcsine_cov_lut/sel[12]) which is driven by a register (u_engine/state_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#17 Warning
+RAMB36 async control check  
+The RAMB36E1 u_engine/u_arcsine_cov_lut/y_reg_0 has an input control pin u_engine/u_arcsine_cov_lut/y_reg_0/ADDRARDADDR[14] (net: u_engine/u_arcsine_cov_lut/sel[12]) which is driven by a register (u_engine/state_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#18 Warning
+RAMB36 async control check  
+The RAMB36E1 u_engine/u_arcsine_cov_lut/y_reg_0 has an input control pin u_engine/u_arcsine_cov_lut/y_reg_0/ADDRARDADDR[14] (net: u_engine/u_arcsine_cov_lut/sel[12]) which is driven by a register (u_engine/state_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#19 Warning
+RAMB36 async control check  
+The RAMB36E1 u_engine/u_arcsine_cov_lut/y_reg_0 has an input control pin u_engine/u_arcsine_cov_lut/y_reg_0/ADDRARDADDR[14] (net: u_engine/u_arcsine_cov_lut/sel[12]) which is driven by a register (u_engine/state_reg[4]_rep) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#20 Warning
+RAMB36 async control check  
+The RAMB36E1 u_engine/u_arcsine_cov_lut/y_reg_0 has an input control pin u_engine/u_arcsine_cov_lut/y_reg_0/ADDRARDADDR[14] (net: u_engine/u_arcsine_cov_lut/sel[12]) which is driven by a register (u_engine/state_reg[5]_rep__0) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

@@ -1,0 +1,22 @@
+system:
+  state_dimension: 3
+  feature_dimension: 3
+  sigma: 10.0
+  rho: 28.0
+  beta: 2.6666666666666665
+  sampling_interval: 0.02
+  taylor_order: 5
+experiment:
+  seed: 20260820
+  steps: 500
+  rbkf_branches: 8
+  initial_state: [1.0, 1.0, 1.0]
+  initial_covariance_diagonal: 1.0
+noise:
+  process_covariance_diagonal: 0.001
+  measurement_covariance_diagonal: 0.1
+fixed_point:
+  signed_width: 24
+  fractional_bits: 16
+  rounding: nearest_ties_away_from_zero
+  saturation: signed_24_bit

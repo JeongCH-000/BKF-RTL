@@ -1,0 +1,16 @@
+{
+  "files": {
+    "unit_inverse_det.hex": "518fe54f28badadca002956eef32942e87d6d03866430f0a875078aec45fc05d",
+    "unit_inverse_flags.hex": "5106b0e3afb3c7dc47840402130a0869b205a6057d000be25191af734f094e1a",
+    "unit_inverse_input.hex": "15a8169b3468a68c4900a28c2e22fbf77de5d33c4dfc44c80ae552d17dfea9ab",
+    "unit_inverse_y.hex": "64ae159f5a5f5b019e817303696b3c40a204218e8c7c01e9ee95b1b334c078f9",
+    "unit_matmul_a.hex": "b9e8abfa4644bac3534e5b736b9e824b3533e5c76c6d744d1eb40c64f797b610",
+    "unit_matmul_b.hex": "010d79c258206a177c67b0e3a98346ffb83573e203eefa79d43116dad6c97380",
+    "unit_matmul_flags.hex": "2bfc79c07a8b22e1d356ac450dd053a3747fe8ec103fe20b0fb86360fb2bb679",
+    "unit_matmul_y.hex": "b280955225de618d67bb596931fd9b7851b44a6427fef043cbd129500b2f564c"
+  },
+  "includes_near_singular": true,
+  "includes_singular": true,
+  "inverse_cases": 25,
+  "matmul_cases": 64
+}
