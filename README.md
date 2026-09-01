@@ -2,7 +2,7 @@
 
 Lorenz attractor의 3차원 상태 추정을 위한 EKF, 1-bit Bussgang Kalman Filter(BKF), reduced multi-branch BKF(rBKF)를 signed Q8.16 RTL로 구현하고 최적화한 프로젝트임. 합성 가능한 Verilog-2001, SystemVerilog testbench, deterministic vector, Python bit-accurate reference, Icarus regression, Vivado 2020.2 post-route 결과를 함께 제공함.
 
-최종 권장 구현은 [`05_ekf_overflow_pipeline`](variants/05_ekf_overflow_pipeline/)임. 이 버전은 네 configuration 모두 100 MHz out-of-context setup timing을 통과함.
+최종 권장 구현은 [`05_ekf_overflow_pipeline`](variants/05_ekf_overflow_pipeline/)임.
 
 ## 구현 범위
 
@@ -25,7 +25,7 @@ EKF와 BKF/rBKF는 observation resolution이 다르므로 RMSE는 동일 입력 
 - reciprocal-square-root 및 `(2/pi)asin(x)` LUT
 - ready/valid handshake와 output backpressure 지원
 
-Lorenz transition matrix `F_t`는 software에서 계산해 RTL에 입력함. 합성 datapath에는 `real`, `$asin`, `$sqrt`, `$pow`가 없음.
+Lorenz transition matrix `F_t`는 software에서 계산해 RTL에 입력.
 
 ## 개발 단계
 
@@ -56,27 +56,6 @@ MSE/RMSE, latency, 자원, WNS, power의 단계별 통합 비교는 [PIPELINING_
 
 Power는 activity file을 사용하지 않은 vectorless estimate이며 Vivado confidence는 `Medium`임. 단계별 통합 비교는 [PIPELINING_COMPARISON.md](PIPELINING_COMPARISON.md), 상세 검증 결과와 원본 report는 [RESULTS.md](RESULTS.md)에 정리함.
 
-![Float, fixed-point, and RTL comparison](results/plots/float_fixed_rtl_comparison.png)
-
-## 저장소 구조
-
-```text
-BKF_Verilog/
-├── README.md
-├── PIPELINING_COMPARISON.md
-├── RESULTS.md
-├── Makefile
-├── variants/
-│   ├── 01_baseline/
-│   ├── 02_pipelined/
-│   ├── 03_divider_pipeline/
-│   ├── 04_wns_closure/
-│   └── 05_ekf_overflow_pipeline/
-└── results/
-    ├── plots/
-    ├── waveforms/baseline/
-    └── vivado/<variant>/<configuration>/
-```
 
 각 variant는 다음 공통 구조를 가짐. 명목 regression에 필요한 소스와 vector는 variant 안에 있고, `04`/`05`의 단계 간 equivalence test는 직전 sibling variant를 reference로 사용함.
 
@@ -125,8 +104,6 @@ make vivado \
 
 ## 검증 범위와 제한
 
-- 네 configuration 모두 one-step 및 500-step RTL regression PASS
-- Python integer reference 대비 state/covariance 최대 code difference 0
 - `03` → `04`, `04` → `05` 단계 간 4 configuration × 500-step × 19-field trace mismatch 0
 - `04`/`05` EKF overflow 전후 directed 21, randomized 2,000 포함 2,073 paired transaction semantic mismatch 0
 - nominal overflow/solver error 0, negative posterior covariance diagonal 0
@@ -135,4 +112,3 @@ make vivado \
 - Vivado 결과는 OOC core 비교이며 bitstream과 board validation은 수행하지 않음
 - 검증 범위는 단일 deterministic nominal sequence와 rBKF L=1/L=8
 
-라이선스는 아직 미지정 상태임. 공개 배포 전에 저장소 목적에 맞는 라이선스를 선택해야 함.
