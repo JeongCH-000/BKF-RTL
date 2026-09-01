@@ -1,6 +1,6 @@
 # Pipelining Stage Comparison
 
-이 문서는 다섯 구현 단계와 네 configuration의 알고리즘 오차, latency, FPGA 자원, timing, power를 한 표에서 비교함.
+이 문서는 다섯 구현 단계와 configuration의 알고리즘 오차, latency, FPGA 자원, timing, power를 한 표에서 비교함.
 
 ## 비교 조건과 해석
 
