@@ -1,0 +1,2 @@
+command: ["<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_14/.venv/bin/python", "python/test_bitwidth_arithmetic.py"]
+PASS: independent arithmetic Q8.14, 5175/5175 cases

@@ -1,0 +1,40 @@
+{
+  "arrays": {
+    "measurement": {
+      "dtype": "float64",
+      "sha256": "c9401728b640d548d9c544ce0b467f636ab2ef14d9b18d33f2ea7d765b134606",
+      "shape": [
+        500,
+        8,
+        3
+      ]
+    },
+    "measurement_noise": {
+      "dtype": "float64",
+      "sha256": "5e982ec3663c249024e08d176f5af051d71b1c6d3b47ac082af92dfb093e8e7d",
+      "shape": [
+        500,
+        8,
+        3
+      ]
+    },
+    "process_noise": {
+      "dtype": "float64",
+      "sha256": "fff0f2eb2de780ad9eb5325961b92597e8d4e933e067b11c1e9070791c832fef",
+      "shape": [
+        500,
+        3
+      ]
+    },
+    "target": {
+      "dtype": "float64",
+      "sha256": "d6e1ea750853cd92a010b9e516cf20178acb19616e40553125570fd21bf68747",
+      "shape": [
+        500,
+        3
+      ]
+    }
+  },
+  "combined": "29c0ad4fa2ca5cd1d87f8869b7599a47b915bbb4531749108e59144c7ddba648",
+  "config_sha256": "5a058fda30ed9f7441df898a0c87954ead7ddd67f1f0d60dc5d596efcd64e71d"
+}

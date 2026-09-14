@@ -1,0 +1,13 @@
+Q_format,algorithm,completed_steps,latency_cycles,initiation_interval_cycles,source
+Q8.16,ekf,500,1236,1237,results/bitwidth/q8_16/cycle_counts_ekf.csv
+Q8.16,bkf_l1,500,1306,1307,results/bitwidth/q8_16/cycle_counts_bkf_l1.csv
+Q8.16,rbkf_l1,500,1306,1307,results/bitwidth/q8_16/cycle_counts_rbkf_l1.csv
+Q8.16,rbkf_l8,500,1342,1343,results/bitwidth/q8_16/cycle_counts_rbkf_l8.csv
+Q8.14,ekf,500,1200,1201,results/bitwidth/q8_14/runs/ekf_500/cycle_counts_ekf.csv
+Q8.14,bkf_l1,500,1270,1271,results/bitwidth/q8_14/runs/bkf_l1_500/cycle_counts_bkf_l1.csv
+Q8.14,rbkf_l1,500,1270,1271,results/bitwidth/q8_14/runs/rbkf_l1_500/cycle_counts_rbkf_l1.csv
+Q8.14,rbkf_l8,500,1306,1307,results/bitwidth/q8_14/runs/rbkf_l8_500/cycle_counts_rbkf_l8.csv
+Q8.12,ekf,500,1164,1165,results/bitwidth/q8_12/runs/ekf_500/cycle_counts_ekf.csv
+Q8.12,bkf_l1,500,1234,1235,results/bitwidth/q8_12/runs/bkf_l1_500/cycle_counts_bkf_l1.csv
+Q8.12,rbkf_l1,500,1234,1235,results/bitwidth/q8_12/runs/rbkf_l1_500/cycle_counts_rbkf_l1.csv
+Q8.12,rbkf_l8,500,1270,1271,results/bitwidth/q8_12/runs/rbkf_l8_500/cycle_counts_rbkf_l8.csv

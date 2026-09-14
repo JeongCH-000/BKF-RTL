@@ -1,0 +1,6 @@
+{
+  "arcsine_cov_max_abs_error_at_grid_points": 0.00012198971363680533,
+  "q_format": "signed Q8.12",
+  "reduced_covariance_formula_max_abs_error": 2.220446049250313e-16,
+  "rsqrt_max_abs_error_at_bin_centers": 0.00012198806239505089
+}

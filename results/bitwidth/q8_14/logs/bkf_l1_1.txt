@@ -1,0 +1,4 @@
+command: ["bash", "scripts/run_algorithm_test.sh", "bkf", "1"]
+PASS: 1/1 BKF steps matched bit-exactly
+tb/integration/tb_bkf_full.sv:537: $finish called at 12790000 (1ps)
+PASS: bkf_l1 complete, ordered, known-valued CSV rows=1

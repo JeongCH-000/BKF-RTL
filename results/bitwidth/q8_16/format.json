@@ -1,0 +1,6 @@
+{
+  "fractional_bits": 16,
+  "provenance": "fresh unmodified latest-source isolated run",
+  "q_format": "signed Q8.16",
+  "signed_width": 24
+}

@@ -1,0 +1,519 @@
+{
+  "status": "PASS",
+  "format": {
+    "fractional_bits": 16,
+    "signed_width": 24
+  },
+  "summary": {
+    "reference_arrays_compared": 104,
+    "reference_elements_compared": 306000,
+    "regenerated_vector_files_compared": 56,
+    "regenerated_vector_words_compared": 30551,
+    "rtl_runs_compared": 8
+  },
+  "failures": [],
+  "evidence_scope": "Imported historical Project W24/F16 generalization versus fresh original-source regression; compact projection, not a new execution.",
+  "source": "Project/BKF_RTL_Q8_14/results/bitwidth/q8_16_generalization_regression.json",
+  "source_sha256": "3e68638dc4477d64db191e4139337397254da4c277c2eca879e0b949f3ddd94d",
+  "baseline_source": "Project/Bussgang_pipelined_divider_pipeline_wns_closure_ekf_overflow_pipeline",
+  "algorithms": {
+    "bkf_l1": {
+      "status": "PASS",
+      "first_failure_step": null,
+      "fixed_arrays_compared": 13,
+      "fixed_elements_compared": 32500,
+      "float_arrays_compared": 12,
+      "float_elements_compared": 32000,
+      "baseline_flag_assertion_present": true,
+      "runs": {
+        "1": {
+          "status": "PASS",
+          "cycles": {
+            "baseline_completed_steps": 1,
+            "candidate_added_columns": [],
+            "candidate_flag_counts": {},
+            "compared_cells": 4,
+            "compared_columns": [
+              "cycles",
+              "result_cycle",
+              "start_cycle",
+              "step"
+            ],
+            "completed_steps": 1,
+            "cycles_per_update_max": 1306,
+            "cycles_per_update_min": 1306,
+            "first_failure_step": null,
+            "requested_steps": 1,
+            "status": "PASS"
+          },
+          "rtl_outputs": {
+            "baseline_completed_steps": 1,
+            "candidate_added_columns": [],
+            "candidate_flag_counts": {
+              "numeric_error": 0,
+              "overflow": 0,
+              "solver_error": 0
+            },
+            "compared_cells": 23,
+            "compared_columns": [
+              "cov_00_int",
+              "cov_01_int",
+              "cov_02_int",
+              "cov_10_int",
+              "cov_11_int",
+              "cov_12_int",
+              "cov_20_int",
+              "cov_21_int",
+              "cov_22_int",
+              "cycles",
+              "numeric_error",
+              "observation_0",
+              "observation_1",
+              "observation_2",
+              "overflow",
+              "solver_error",
+              "state_0_int",
+              "state_1_int",
+              "state_2_int",
+              "step",
+              "threshold_0_int",
+              "threshold_1_int",
+              "threshold_2_int"
+            ],
+            "completed_steps": 1,
+            "cycles_per_update_max": 1306,
+            "cycles_per_update_min": 1306,
+            "first_failure_step": null,
+            "requested_steps": 1,
+            "status": "PASS"
+          }
+        },
+        "500": {
+          "status": "PASS",
+          "cycles": {
+            "baseline_completed_steps": 500,
+            "candidate_added_columns": [],
+            "candidate_flag_counts": {},
+            "compared_cells": 2000,
+            "compared_columns": [
+              "cycles",
+              "result_cycle",
+              "start_cycle",
+              "step"
+            ],
+            "completed_steps": 500,
+            "cycles_per_update_max": 1306,
+            "cycles_per_update_min": 1306,
+            "first_failure_step": null,
+            "requested_steps": 500,
+            "status": "PASS"
+          },
+          "rtl_outputs": {
+            "baseline_completed_steps": 500,
+            "candidate_added_columns": [],
+            "candidate_flag_counts": {
+              "numeric_error": 0,
+              "overflow": 0,
+              "solver_error": 0
+            },
+            "compared_cells": 11500,
+            "compared_columns": [
+              "cov_00_int",
+              "cov_01_int",
+              "cov_02_int",
+              "cov_10_int",
+              "cov_11_int",
+              "cov_12_int",
+              "cov_20_int",
+              "cov_21_int",
+              "cov_22_int",
+              "cycles",
+              "numeric_error",
+              "observation_0",
+              "observation_1",
+              "observation_2",
+              "overflow",
+              "solver_error",
+              "state_0_int",
+              "state_1_int",
+              "state_2_int",
+              "step",
+              "threshold_0_int",
+              "threshold_1_int",
+              "threshold_2_int"
+            ],
+            "completed_steps": 500,
+            "cycles_per_update_max": 1306,
+            "cycles_per_update_min": 1306,
+            "first_failure_step": null,
+            "requested_steps": 500,
+            "status": "PASS"
+          }
+        }
+      }
+    },
+    "ekf": {
+      "status": "PASS",
+      "first_failure_step": null,
+      "fixed_arrays_compared": 13,
+      "fixed_elements_compared": 32500,
+      "float_arrays_compared": 12,
+      "float_elements_compared": 32000,
+      "baseline_flag_assertion_present": true,
+      "runs": {
+        "1": {
+          "status": "PASS",
+          "cycles": {
+            "baseline_completed_steps": 1,
+            "candidate_added_columns": [],
+            "candidate_flag_counts": {},
+            "compared_cells": 4,
+            "compared_columns": [
+              "cycles",
+              "result_cycle",
+              "start_cycle",
+              "step"
+            ],
+            "completed_steps": 1,
+            "cycles_per_update_max": 1236,
+            "cycles_per_update_min": 1236,
+            "first_failure_step": null,
+            "requested_steps": 1,
+            "status": "PASS"
+          },
+          "rtl_outputs": {
+            "baseline_completed_steps": 1,
+            "candidate_added_columns": [
+              "numeric_error",
+              "overflow",
+              "solver_error"
+            ],
+            "candidate_flag_counts": {
+              "numeric_error": 0,
+              "overflow": 0,
+              "solver_error": 0
+            },
+            "compared_cells": 13,
+            "compared_columns": [
+              "cov_00_int",
+              "cov_01_int",
+              "cov_02_int",
+              "cov_10_int",
+              "cov_11_int",
+              "cov_12_int",
+              "cov_20_int",
+              "cov_21_int",
+              "cov_22_int",
+              "state_0_int",
+              "state_1_int",
+              "state_2_int",
+              "step"
+            ],
+            "completed_steps": 1,
+            "first_failure_step": null,
+            "flag_provenance": "The latest original testbench and fresh isolated baseline CSV do not export these flags; candidate actual flags are counted. Baseline testbench error assertions are documented separately; a missing CSV field is not claimed as a CSV comparison.",
+            "requested_steps": 1,
+            "status": "PASS"
+          }
+        },
+        "500": {
+          "status": "PASS",
+          "cycles": {
+            "baseline_completed_steps": 500,
+            "candidate_added_columns": [],
+            "candidate_flag_counts": {},
+            "compared_cells": 2000,
+            "compared_columns": [
+              "cycles",
+              "result_cycle",
+              "start_cycle",
+              "step"
+            ],
+            "completed_steps": 500,
+            "cycles_per_update_max": 1236,
+            "cycles_per_update_min": 1236,
+            "first_failure_step": null,
+            "requested_steps": 500,
+            "status": "PASS"
+          },
+          "rtl_outputs": {
+            "baseline_completed_steps": 500,
+            "candidate_added_columns": [
+              "numeric_error",
+              "overflow",
+              "solver_error"
+            ],
+            "candidate_flag_counts": {
+              "numeric_error": 0,
+              "overflow": 0,
+              "solver_error": 0
+            },
+            "compared_cells": 6500,
+            "compared_columns": [
+              "cov_00_int",
+              "cov_01_int",
+              "cov_02_int",
+              "cov_10_int",
+              "cov_11_int",
+              "cov_12_int",
+              "cov_20_int",
+              "cov_21_int",
+              "cov_22_int",
+              "state_0_int",
+              "state_1_int",
+              "state_2_int",
+              "step"
+            ],
+            "completed_steps": 500,
+            "first_failure_step": null,
+            "flag_provenance": "The latest original testbench and fresh isolated baseline CSV do not export these flags; candidate actual flags are counted. Baseline testbench error assertions are documented separately; a missing CSV field is not claimed as a CSV comparison.",
+            "requested_steps": 500,
+            "status": "PASS"
+          }
+        }
+      }
+    },
+    "rbkf_l1": {
+      "status": "PASS",
+      "first_failure_step": null,
+      "fixed_arrays_compared": 13,
+      "fixed_elements_compared": 32500,
+      "float_arrays_compared": 12,
+      "float_elements_compared": 32000,
+      "baseline_flag_assertion_present": true,
+      "runs": {
+        "1": {
+          "status": "PASS",
+          "cycles": {
+            "baseline_completed_steps": 1,
+            "candidate_added_columns": [],
+            "candidate_flag_counts": {},
+            "compared_cells": 4,
+            "compared_columns": [
+              "cycles",
+              "result_cycle",
+              "start_cycle",
+              "step"
+            ],
+            "completed_steps": 1,
+            "cycles_per_update_max": 1306,
+            "cycles_per_update_min": 1306,
+            "first_failure_step": null,
+            "requested_steps": 1,
+            "status": "PASS"
+          },
+          "rtl_outputs": {
+            "baseline_completed_steps": 1,
+            "candidate_added_columns": [
+              "numeric_error",
+              "overflow",
+              "solver_error"
+            ],
+            "candidate_flag_counts": {
+              "numeric_error": 0,
+              "overflow": 0,
+              "solver_error": 0
+            },
+            "compared_cells": 13,
+            "compared_columns": [
+              "cov_00_int",
+              "cov_01_int",
+              "cov_02_int",
+              "cov_10_int",
+              "cov_11_int",
+              "cov_12_int",
+              "cov_20_int",
+              "cov_21_int",
+              "cov_22_int",
+              "state_0_int",
+              "state_1_int",
+              "state_2_int",
+              "step"
+            ],
+            "completed_steps": 1,
+            "first_failure_step": null,
+            "flag_provenance": "The latest original testbench and fresh isolated baseline CSV do not export these flags; candidate actual flags are counted. Baseline testbench error assertions are documented separately; a missing CSV field is not claimed as a CSV comparison.",
+            "requested_steps": 1,
+            "status": "PASS"
+          }
+        },
+        "500": {
+          "status": "PASS",
+          "cycles": {
+            "baseline_completed_steps": 500,
+            "candidate_added_columns": [],
+            "candidate_flag_counts": {},
+            "compared_cells": 2000,
+            "compared_columns": [
+              "cycles",
+              "result_cycle",
+              "start_cycle",
+              "step"
+            ],
+            "completed_steps": 500,
+            "cycles_per_update_max": 1306,
+            "cycles_per_update_min": 1306,
+            "first_failure_step": null,
+            "requested_steps": 500,
+            "status": "PASS"
+          },
+          "rtl_outputs": {
+            "baseline_completed_steps": 500,
+            "candidate_added_columns": [
+              "numeric_error",
+              "overflow",
+              "solver_error"
+            ],
+            "candidate_flag_counts": {
+              "numeric_error": 0,
+              "overflow": 0,
+              "solver_error": 0
+            },
+            "compared_cells": 6500,
+            "compared_columns": [
+              "cov_00_int",
+              "cov_01_int",
+              "cov_02_int",
+              "cov_10_int",
+              "cov_11_int",
+              "cov_12_int",
+              "cov_20_int",
+              "cov_21_int",
+              "cov_22_int",
+              "state_0_int",
+              "state_1_int",
+              "state_2_int",
+              "step"
+            ],
+            "completed_steps": 500,
+            "first_failure_step": null,
+            "flag_provenance": "The latest original testbench and fresh isolated baseline CSV do not export these flags; candidate actual flags are counted. Baseline testbench error assertions are documented separately; a missing CSV field is not claimed as a CSV comparison.",
+            "requested_steps": 500,
+            "status": "PASS"
+          }
+        }
+      }
+    },
+    "rbkf_l8": {
+      "status": "PASS",
+      "first_failure_step": null,
+      "fixed_arrays_compared": 13,
+      "fixed_elements_compared": 43000,
+      "float_arrays_compared": 12,
+      "float_elements_compared": 42500,
+      "baseline_flag_assertion_present": true,
+      "runs": {
+        "1": {
+          "status": "PASS",
+          "cycles": {
+            "baseline_completed_steps": 1,
+            "candidate_added_columns": [],
+            "candidate_flag_counts": {},
+            "compared_cells": 4,
+            "compared_columns": [
+              "cycles",
+              "result_cycle",
+              "start_cycle",
+              "step"
+            ],
+            "completed_steps": 1,
+            "cycles_per_update_max": 1342,
+            "cycles_per_update_min": 1342,
+            "first_failure_step": null,
+            "requested_steps": 1,
+            "status": "PASS"
+          },
+          "rtl_outputs": {
+            "baseline_completed_steps": 1,
+            "candidate_added_columns": [
+              "numeric_error",
+              "overflow",
+              "solver_error"
+            ],
+            "candidate_flag_counts": {
+              "numeric_error": 0,
+              "overflow": 0,
+              "solver_error": 0
+            },
+            "compared_cells": 13,
+            "compared_columns": [
+              "cov_00_int",
+              "cov_01_int",
+              "cov_02_int",
+              "cov_10_int",
+              "cov_11_int",
+              "cov_12_int",
+              "cov_20_int",
+              "cov_21_int",
+              "cov_22_int",
+              "state_0_int",
+              "state_1_int",
+              "state_2_int",
+              "step"
+            ],
+            "completed_steps": 1,
+            "first_failure_step": null,
+            "flag_provenance": "The latest original testbench and fresh isolated baseline CSV do not export these flags; candidate actual flags are counted. Baseline testbench error assertions are documented separately; a missing CSV field is not claimed as a CSV comparison.",
+            "requested_steps": 1,
+            "status": "PASS"
+          }
+        },
+        "500": {
+          "status": "PASS",
+          "cycles": {
+            "baseline_completed_steps": 500,
+            "candidate_added_columns": [],
+            "candidate_flag_counts": {},
+            "compared_cells": 2000,
+            "compared_columns": [
+              "cycles",
+              "result_cycle",
+              "start_cycle",
+              "step"
+            ],
+            "completed_steps": 500,
+            "cycles_per_update_max": 1342,
+            "cycles_per_update_min": 1342,
+            "first_failure_step": null,
+            "requested_steps": 500,
+            "status": "PASS"
+          },
+          "rtl_outputs": {
+            "baseline_completed_steps": 500,
+            "candidate_added_columns": [
+              "numeric_error",
+              "overflow",
+              "solver_error"
+            ],
+            "candidate_flag_counts": {
+              "numeric_error": 0,
+              "overflow": 0,
+              "solver_error": 0
+            },
+            "compared_cells": 6500,
+            "compared_columns": [
+              "cov_00_int",
+              "cov_01_int",
+              "cov_02_int",
+              "cov_10_int",
+              "cov_11_int",
+              "cov_12_int",
+              "cov_20_int",
+              "cov_21_int",
+              "cov_22_int",
+              "state_0_int",
+              "state_1_int",
+              "state_2_int",
+              "step"
+            ],
+            "completed_steps": 500,
+            "first_failure_step": null,
+            "flag_provenance": "The latest original testbench and fresh isolated baseline CSV do not export these flags; candidate actual flags are counted. Baseline testbench error assertions are documented separately; a missing CSV field is not claimed as a CSV comparison.",
+            "requested_steps": 500,
+            "status": "PASS"
+          }
+        }
+      }
+    }
+  }
+}

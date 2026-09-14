@@ -1,0 +1,62 @@
+{
+  "bkf_l1": {
+    "algorithm": "bkf_l1",
+    "cov_bit_exact_rate": 1.0,
+    "cov_max_abs_code_diff": 0,
+    "cov_mean_abs_code_diff": 0.0,
+    "covariance_symmetry_max_lsb": 1,
+    "cycles_per_update_max": 1306,
+    "cycles_per_update_min": 1306,
+    "negative_covariance_diagonal_count": 0,
+    "overflow_count": 0,
+    "solver_error_count": 0,
+    "state_bit_exact_rate": 1.0,
+    "state_max_abs_code_diff": 0,
+    "state_mean_abs_code_diff": 0.0
+  },
+  "ekf": {
+    "algorithm": "ekf",
+    "cov_bit_exact_rate": 1.0,
+    "cov_max_abs_code_diff": 0,
+    "cov_mean_abs_code_diff": 0.0,
+    "covariance_symmetry_max_lsb": 0,
+    "cycles_per_update_max": 1236,
+    "cycles_per_update_min": 1236,
+    "negative_covariance_diagonal_count": 0,
+    "overflow_count": 0,
+    "solver_error_count": 0,
+    "state_bit_exact_rate": 1.0,
+    "state_max_abs_code_diff": 0,
+    "state_mean_abs_code_diff": 0.0
+  },
+  "rbkf_l1": {
+    "algorithm": "rbkf_l1",
+    "cov_bit_exact_rate": 1.0,
+    "cov_max_abs_code_diff": 0,
+    "cov_mean_abs_code_diff": 0.0,
+    "covariance_symmetry_max_lsb": 1,
+    "cycles_per_update_max": 1306,
+    "cycles_per_update_min": 1306,
+    "negative_covariance_diagonal_count": 0,
+    "overflow_count": 0,
+    "solver_error_count": 0,
+    "state_bit_exact_rate": 1.0,
+    "state_max_abs_code_diff": 0,
+    "state_mean_abs_code_diff": 0.0
+  },
+  "rbkf_l8": {
+    "algorithm": "rbkf_l8",
+    "cov_bit_exact_rate": 1.0,
+    "cov_max_abs_code_diff": 0,
+    "cov_mean_abs_code_diff": 0.0,
+    "covariance_symmetry_max_lsb": 1,
+    "cycles_per_update_max": 1342,
+    "cycles_per_update_min": 1342,
+    "negative_covariance_diagonal_count": 0,
+    "overflow_count": 0,
+    "solver_error_count": 0,
+    "state_bit_exact_rate": 1.0,
+    "state_max_abs_code_diff": 0,
+    "state_mean_abs_code_diff": 0.0
+  }
+}

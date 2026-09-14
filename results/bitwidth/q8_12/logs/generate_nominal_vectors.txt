@@ -1,0 +1,2 @@
+command: ["<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_12/.venv/bin/python", "python/generate_nominal_vectors.py"]
+PASS: generated 46 nominal vector files (474cfe0b76b373ae068b2c35feeadf44099b683add409963b1b741413e5d5dd5)

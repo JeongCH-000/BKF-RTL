@@ -1,0 +1,2 @@
+command: ["<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_14/.venv/bin/python", "python/check_wns_structure.py"]
+PASS: WNS/common pipeline register boundaries, divider iteration formula, and timing constraints

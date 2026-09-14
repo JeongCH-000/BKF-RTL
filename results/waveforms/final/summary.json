@@ -1,0 +1,236 @@
+{
+  "audit_after": {
+    "copied_immutable_files_checked": 154,
+    "original_files_checked": 408,
+    "original_project_unchanged": true
+  },
+  "audit_before": {
+    "copied_immutable_files_checked": 154,
+    "original_files_checked": 408,
+    "original_project_unchanged": true
+  },
+  "debug_steps": 10,
+  "designs": {
+    "bkf_l1": {
+      "covariance_mismatches": 0,
+      "final_cycle_csv_match": "PASS",
+      "final_output_csv_match": "PASS",
+      "fixed_model_recomputed": {
+        "fields_compared": 13,
+        "reference_files_overwritten": false,
+        "status": "PASS",
+        "stimulus": "results/reference/stimulus.npz"
+      },
+      "initiation_interval_cycles": 1307,
+      "python_match": "PASS",
+      "simulation": "PASS",
+      "simulation_modes": [
+        "baseline",
+        "full",
+        "debug"
+      ],
+      "state_mismatches": 0,
+      "steps_per_run": 500,
+      "testbench_latency_cycles": 1306,
+      "waveforms": {
+        "debug": {
+          "acceptance_to_result_valid_edge_cycles": 1305,
+          "bytes": 3728369,
+          "clock_period_ns": 10,
+          "declared_signals": 642,
+          "first_result_ps": 13135000,
+          "input_handshakes": 10,
+          "last_result_ps": 130765000,
+          "output_handshakes": 10,
+          "path": "waveforms/debug/bkf_l1_debug.vcd",
+          "recording_end_ps": 130776000,
+          "result_pulses": 10,
+          "sha256": "992167727bd10e33daabd70ec09527a4a990e59823327f131535356283375e80",
+          "vcd_state_covariance_match": "PASS"
+        },
+        "full": {
+          "acceptance_to_result_valid_edge_cycles": 1305,
+          "bytes": 21401411,
+          "clock_period_ns": 10,
+          "declared_signals": 32,
+          "first_result_ps": 13135000,
+          "input_handshakes": 500,
+          "last_result_ps": 6535065000,
+          "output_handshakes": 500,
+          "path": "waveforms/full/bkf_l1.vcd",
+          "recording_end_ps": 6535080000,
+          "result_pulses": 500,
+          "sha256": "b09085184da9b84e0fd640b9f901d791ef2c4ee42e8241e4c4cbc4fd3c196d33",
+          "vcd_state_covariance_match": "PASS"
+        }
+      }
+    },
+    "ekf_l1": {
+      "covariance_mismatches": 0,
+      "final_cycle_csv_match": "PASS",
+      "final_output_csv_match": "PASS",
+      "fixed_model_recomputed": {
+        "fields_compared": 13,
+        "reference_files_overwritten": false,
+        "status": "PASS",
+        "stimulus": "results/reference/stimulus.npz"
+      },
+      "initiation_interval_cycles": 1237,
+      "python_match": "PASS",
+      "simulation": "PASS",
+      "simulation_modes": [
+        "baseline",
+        "full",
+        "debug"
+      ],
+      "state_mismatches": 0,
+      "steps_per_run": 500,
+      "testbench_latency_cycles": 1236,
+      "waveforms": {
+        "debug": {
+          "acceptance_to_result_valid_edge_cycles": 1235,
+          "bytes": 3410200,
+          "clock_period_ns": 10,
+          "declared_signals": 676,
+          "first_result_ps": 12435000,
+          "input_handshakes": 10,
+          "last_result_ps": 123765000,
+          "output_handshakes": 10,
+          "path": "waveforms/debug/ekf_l1_debug.vcd",
+          "recording_end_ps": 123776000,
+          "result_pulses": 10,
+          "sha256": "5f6686f1e7373d1367cc42f94984fd1a29091eb21e677091cb89c69c8511df82",
+          "vcd_state_covariance_match": "PASS"
+        },
+        "full": {
+          "acceptance_to_result_valid_edge_cycles": 1235,
+          "bytes": 20323867,
+          "clock_period_ns": 10,
+          "declared_signals": 32,
+          "first_result_ps": 12435000,
+          "input_handshakes": 500,
+          "last_result_ps": 6185065000,
+          "output_handshakes": 500,
+          "path": "waveforms/full/ekf_l1.vcd",
+          "recording_end_ps": 6185080000,
+          "result_pulses": 500,
+          "sha256": "ce8241a818cab7a5039ff6cde44ed1bc0942f4de31e7ce1c925e36a084b20cee",
+          "vcd_state_covariance_match": "PASS"
+        }
+      }
+    },
+    "rbkf_l1": {
+      "covariance_mismatches": 0,
+      "final_cycle_csv_match": "PASS",
+      "final_output_csv_match": "PASS",
+      "fixed_model_recomputed": {
+        "fields_compared": 13,
+        "reference_files_overwritten": false,
+        "status": "PASS",
+        "stimulus": "results/reference/stimulus.npz"
+      },
+      "initiation_interval_cycles": 1307,
+      "python_match": "PASS",
+      "simulation": "PASS",
+      "simulation_modes": [
+        "baseline",
+        "full",
+        "debug"
+      ],
+      "state_mismatches": 0,
+      "steps_per_run": 500,
+      "testbench_latency_cycles": 1306,
+      "waveforms": {
+        "debug": {
+          "acceptance_to_result_valid_edge_cycles": 1305,
+          "bytes": 3851180,
+          "clock_period_ns": 10,
+          "declared_signals": 679,
+          "first_result_ps": 13135000,
+          "input_handshakes": 10,
+          "last_result_ps": 130765000,
+          "output_handshakes": 10,
+          "path": "waveforms/debug/rbkf_l1_debug.vcd",
+          "recording_end_ps": 130776000,
+          "result_pulses": 10,
+          "sha256": "192b67089bdd7bfb8781fc013a693cce1832e69fe724f8ff77631566cdc09c15",
+          "vcd_state_covariance_match": "PASS"
+        },
+        "full": {
+          "acceptance_to_result_valid_edge_cycles": 1305,
+          "bytes": 21401491,
+          "clock_period_ns": 10,
+          "declared_signals": 32,
+          "first_result_ps": 13135000,
+          "input_handshakes": 500,
+          "last_result_ps": 6535065000,
+          "output_handshakes": 500,
+          "path": "waveforms/full/rbkf_l1.vcd",
+          "recording_end_ps": 6535080000,
+          "result_pulses": 500,
+          "sha256": "1bc2e6279029c1cdc84fb170d31122c1774ef61bcd5ceeb0e59afdec096a67aa",
+          "vcd_state_covariance_match": "PASS"
+        }
+      }
+    },
+    "rbkf_l8": {
+      "covariance_mismatches": 0,
+      "final_cycle_csv_match": "PASS",
+      "final_output_csv_match": "PASS",
+      "fixed_model_recomputed": {
+        "fields_compared": 13,
+        "reference_files_overwritten": false,
+        "status": "PASS",
+        "stimulus": "results/reference/stimulus.npz"
+      },
+      "initiation_interval_cycles": 1343,
+      "python_match": "PASS",
+      "simulation": "PASS",
+      "simulation_modes": [
+        "baseline",
+        "full",
+        "debug"
+      ],
+      "state_mismatches": 0,
+      "steps_per_run": 500,
+      "testbench_latency_cycles": 1342,
+      "waveforms": {
+        "debug": {
+          "acceptance_to_result_valid_edge_cycles": 1341,
+          "bytes": 3743972,
+          "clock_period_ns": 10,
+          "declared_signals": 679,
+          "first_result_ps": 13495000,
+          "input_handshakes": 10,
+          "last_result_ps": 134365000,
+          "output_handshakes": 10,
+          "path": "waveforms/debug/rbkf_l8_debug.vcd",
+          "recording_end_ps": 134376000,
+          "result_pulses": 10,
+          "sha256": "a6cfd5021990238665a3078253cf4d927a772a5536e593b283981ba0c4c236fd",
+          "vcd_state_covariance_match": "PASS"
+        },
+        "full": {
+          "acceptance_to_result_valid_edge_cycles": 1341,
+          "bytes": 21906396,
+          "clock_period_ns": 10,
+          "declared_signals": 32,
+          "first_result_ps": 13495000,
+          "input_handshakes": 500,
+          "last_result_ps": 6715065000,
+          "output_handshakes": 500,
+          "path": "waveforms/full/rbkf_l8.vcd",
+          "recording_end_ps": 6715080000,
+          "result_pulses": 500,
+          "sha256": "f5bcf3a27d2d058be528d60ef01d766209f250719a3279239587bd99f3af7751",
+          "vcd_state_covariance_match": "PASS"
+        }
+      }
+    }
+  },
+  "generated_at": "2026-09-11T13:24:16+0900",
+  "numpy": "2.5.1",
+  "project": "Project/final_waveform_validation",
+  "provenance_note": "Archived source run; VCD paths refer to the original capture layout. VCD files are regenerated locally and are not tracked.",
+  "python": "3.12.6"
+}

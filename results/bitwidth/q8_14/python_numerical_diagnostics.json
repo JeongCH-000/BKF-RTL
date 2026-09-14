@@ -1,0 +1,58 @@
+{
+  "algorithms": {
+    "bkf_l1": {
+      "completed_steps": 500,
+      "first_negative_covariance_step": null,
+      "first_overflow_step": null,
+      "first_solver_error_step": null,
+      "implementation_status": "PENDING_RTL_COMPARISON",
+      "minimum_covariance_diagonal_real": 0.00634765625,
+      "negative_covariance_diagonal_entries": 0,
+      "negative_covariance_diagonal_updates": 0,
+      "numerical_status": "NO_RECORDED_EVENTS",
+      "overflow_updates": 0,
+      "solver_error_updates": 0
+    },
+    "ekf": {
+      "completed_steps": 500,
+      "first_negative_covariance_step": null,
+      "first_overflow_step": null,
+      "first_solver_error_step": null,
+      "implementation_status": "PENDING_RTL_COMPARISON",
+      "minimum_covariance_diagonal_real": 0.0048828125,
+      "negative_covariance_diagonal_entries": 0,
+      "negative_covariance_diagonal_updates": 0,
+      "numerical_status": "NO_RECORDED_EVENTS",
+      "overflow_updates": 0,
+      "solver_error_updates": 0
+    },
+    "rbkf_l1": {
+      "completed_steps": 500,
+      "first_negative_covariance_step": null,
+      "first_overflow_step": null,
+      "first_solver_error_step": null,
+      "implementation_status": "PENDING_RTL_COMPARISON",
+      "minimum_covariance_diagonal_real": 0.00634765625,
+      "negative_covariance_diagonal_entries": 0,
+      "negative_covariance_diagonal_updates": 0,
+      "numerical_status": "NO_RECORDED_EVENTS",
+      "overflow_updates": 0,
+      "solver_error_updates": 0
+    },
+    "rbkf_l8": {
+      "completed_steps": 500,
+      "first_negative_covariance_step": null,
+      "first_overflow_step": null,
+      "first_solver_error_step": null,
+      "implementation_status": "PENDING_RTL_COMPARISON",
+      "minimum_covariance_diagonal_real": 0.0025634765625,
+      "negative_covariance_diagonal_entries": 0,
+      "negative_covariance_diagonal_updates": 0,
+      "numerical_status": "NO_RECORDED_EVENTS",
+      "overflow_updates": 0,
+      "solver_error_updates": 0
+    }
+  },
+  "q_format": "signed Q8.14",
+  "scope": "single seed, 500 steps; quality events are separate from RTL/Python mismatches"
+}

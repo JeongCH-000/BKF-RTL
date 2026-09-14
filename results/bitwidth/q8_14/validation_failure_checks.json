@@ -1,0 +1,62 @@
+[
+  {
+    "case": "complete_fixture",
+    "expected_status": "PASS",
+    "first_failure_step": null,
+    "result": "PASS"
+  },
+  {
+    "case": "truncated_outputs",
+    "expected_status": "INCOMPLETE",
+    "first_failure_step": 5,
+    "result": "PASS"
+  },
+  {
+    "case": "x_state",
+    "expected_status": "FAIL",
+    "first_failure_step": 2,
+    "result": "PASS"
+  },
+  {
+    "case": "z_covariance",
+    "expected_status": "FAIL",
+    "first_failure_step": 4,
+    "result": "PASS"
+  },
+  {
+    "case": "invalid_flag",
+    "expected_status": "FAIL",
+    "first_failure_step": 3,
+    "result": "PASS"
+  },
+  {
+    "case": "duplicate_step",
+    "expected_status": "FAIL",
+    "first_failure_step": 4,
+    "result": "PASS"
+  },
+  {
+    "case": "state_mismatch",
+    "expected_status": "FAIL",
+    "first_failure_step": 1,
+    "result": "PASS"
+  },
+  {
+    "case": "missing_cycle_row",
+    "expected_status": "FAIL",
+    "first_failure_step": 5,
+    "result": "PASS"
+  },
+  {
+    "case": "no_cycle_rows",
+    "expected_status": "FAIL",
+    "first_failure_step": 0,
+    "result": "PASS"
+  },
+  {
+    "case": "numeric_flags_preserve_implementation_pass",
+    "expected_status": "PASS",
+    "first_failure_step": null,
+    "result": "PASS"
+  }
+]

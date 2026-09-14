@@ -1,0 +1,2 @@
+command: ["<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_14/.venv/bin/python", "python/plot_nominal_results.py"]
+PASS: generated nominal trajectory, error-norm, and float/fixed/RTL plots

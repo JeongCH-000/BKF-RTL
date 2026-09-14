@@ -1,0 +1,2 @@
+command: ["<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_14/.venv/bin/python", "python/report_bitwidth.py"]
+PASS: wrote 12 accuracy rows with explicit metric provenance and empty hardware fields

@@ -1,0 +1,2 @@
+command: ["<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_12/.venv/bin/python", "python/lint_rtl.py"]
+PASS: RTL policy lint and 3 top-level elaborations

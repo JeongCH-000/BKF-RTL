@@ -1,0 +1,12 @@
+command: ["<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_12/.venv/bin/python", "python/test_bitwidth_validation.py"]
+PASS: validation complete_fixture: PASS, first_failure_step=None
+PASS: validation truncated_outputs: INCOMPLETE, first_failure_step=5
+PASS: validation x_state: FAIL, first_failure_step=2
+PASS: validation z_covariance: FAIL, first_failure_step=4
+PASS: validation invalid_flag: FAIL, first_failure_step=3
+PASS: validation duplicate_step: FAIL, first_failure_step=4
+PASS: validation state_mismatch: FAIL, first_failure_step=1
+PASS: validation missing_cycle_row: FAIL, first_failure_step=5
+PASS: validation no_cycle_rows: FAIL, first_failure_step=0
+PASS: validation numeric_flags_preserve_implementation_pass: PASS, first_failure_step=None
+PASS: 10 disposable report-validation cases; bitwidth/validation_failure_checks.json

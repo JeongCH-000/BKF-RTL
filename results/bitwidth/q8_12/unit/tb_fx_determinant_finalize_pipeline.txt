@@ -1,0 +1,2 @@
+PASS: determinant finalize directed=18 protocol=2 mismatch=0 latency=3 accepted=20 completed=20
+tb/unit/tb_fx_determinant_finalize_pipeline.v:396: $finish called at 1190000 (1ps)

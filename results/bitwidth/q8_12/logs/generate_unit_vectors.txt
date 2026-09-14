@@ -1,0 +1,2 @@
+command: ["<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_12/.venv/bin/python", "python/generate_unit_vectors.py"]
+Generated 64 matmul and 25 inverse unit cases

@@ -1,0 +1,283 @@
+[
+  {
+    "command": [
+      "<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_14/.venv/bin/python",
+      "python/nominal_config.py",
+      "--generate"
+    ],
+    "log": "results/bitwidth/logs/format_generate.log",
+    "required": true,
+    "returncode": 0,
+    "seconds": 0.129,
+    "status": "PASS",
+    "test": "format_generate"
+  },
+  {
+    "command": [
+      "<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_14/.venv/bin/python",
+      "python/nominal_models.py"
+    ],
+    "log": "results/bitwidth/logs/nominal_models.log",
+    "required": true,
+    "returncode": 0,
+    "seconds": 0.565,
+    "status": "PASS",
+    "test": "nominal_models"
+  },
+  {
+    "command": [
+      "<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_14/.venv/bin/python",
+      "python/generate_luts.py"
+    ],
+    "log": "results/bitwidth/logs/generate_luts.log",
+    "required": true,
+    "returncode": 0,
+    "seconds": 0.072,
+    "status": "PASS",
+    "test": "generate_luts"
+  },
+  {
+    "command": [
+      "<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_14/.venv/bin/python",
+      "python/generate_nominal_vectors.py"
+    ],
+    "log": "results/bitwidth/logs/generate_nominal_vectors.log",
+    "required": true,
+    "returncode": 0,
+    "seconds": 0.233,
+    "status": "PASS",
+    "test": "generate_nominal_vectors"
+  },
+  {
+    "command": [
+      "<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_14/.venv/bin/python",
+      "python/generate_unit_vectors.py"
+    ],
+    "log": "results/bitwidth/logs/generate_unit_vectors.log",
+    "required": true,
+    "returncode": 0,
+    "seconds": 0.128,
+    "status": "PASS",
+    "test": "generate_unit_vectors"
+  },
+  {
+    "command": [
+      "<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_14/.venv/bin/python",
+      "python/test_reference_models.py"
+    ],
+    "log": "results/bitwidth/logs/reference_tests.log",
+    "required": true,
+    "returncode": 0,
+    "seconds": 0.505,
+    "status": "PASS",
+    "test": "reference_tests"
+  },
+  {
+    "command": [
+      "<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_14/.venv/bin/python",
+      "python/lint_rtl.py"
+    ],
+    "log": "results/bitwidth/logs/lint.log",
+    "required": true,
+    "returncode": 0,
+    "seconds": 0.184,
+    "status": "PASS",
+    "test": "lint"
+  },
+  {
+    "command": [
+      "<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_14/.venv/bin/python",
+      "python/check_wns_structure.py"
+    ],
+    "log": "results/bitwidth/logs/pipeline_structure.log",
+    "required": true,
+    "returncode": 0,
+    "seconds": 0.077,
+    "status": "PASS",
+    "test": "pipeline_structure"
+  },
+  {
+    "command": [
+      "bash",
+      "scripts/run_unit_tests.sh"
+    ],
+    "log": "results/bitwidth/logs/unit_tests.log",
+    "required": true,
+    "returncode": 0,
+    "seconds": 0.839,
+    "status": "PASS",
+    "test": "unit_tests"
+  },
+  {
+    "command": [
+      "<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_14/.venv/bin/python",
+      "python/test_bitwidth_arithmetic.py"
+    ],
+    "log": "results/bitwidth/logs/independent_arithmetic.log",
+    "required": true,
+    "returncode": 0,
+    "seconds": 0.396,
+    "status": "PASS",
+    "test": "independent_arithmetic"
+  },
+  {
+    "command": [
+      "<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_14/.venv/bin/python",
+      "python/test_bitwidth_validation.py"
+    ],
+    "log": "results/bitwidth/logs/validation_failure_checks.log",
+    "required": true,
+    "returncode": 0,
+    "seconds": 0.129,
+    "status": "PASS",
+    "test": "validation_failure_checks"
+  },
+  {
+    "command": [
+      "bash",
+      "scripts/run_algorithm_test.sh",
+      "ekf",
+      "1"
+    ],
+    "log": "results/bitwidth/logs/ekf_1.log",
+    "required": true,
+    "returncode": 0,
+    "seconds": 0.128,
+    "status": "PASS",
+    "test": "ekf_1"
+  },
+  {
+    "command": [
+      "bash",
+      "scripts/run_algorithm_test.sh",
+      "ekf",
+      "500"
+    ],
+    "log": "results/bitwidth/logs/ekf_500.log",
+    "required": true,
+    "returncode": 0,
+    "seconds": 10.213,
+    "status": "PASS",
+    "test": "ekf_500"
+  },
+  {
+    "command": [
+      "bash",
+      "scripts/run_algorithm_test.sh",
+      "bkf",
+      "1"
+    ],
+    "log": "results/bitwidth/logs/bkf_l1_1.log",
+    "required": true,
+    "returncode": 0,
+    "seconds": 0.127,
+    "status": "PASS",
+    "test": "bkf_l1_1"
+  },
+  {
+    "command": [
+      "bash",
+      "scripts/run_algorithm_test.sh",
+      "bkf",
+      "500"
+    ],
+    "log": "results/bitwidth/logs/bkf_l1_500.log",
+    "required": true,
+    "returncode": 0,
+    "seconds": 10.365,
+    "status": "PASS",
+    "test": "bkf_l1_500"
+  },
+  {
+    "command": [
+      "bash",
+      "scripts/run_algorithm_test.sh",
+      "rbkf_l1",
+      "1"
+    ],
+    "log": "results/bitwidth/logs/rbkf_l1_1.log",
+    "required": true,
+    "returncode": 0,
+    "seconds": 0.13,
+    "status": "PASS",
+    "test": "rbkf_l1_1"
+  },
+  {
+    "command": [
+      "bash",
+      "scripts/run_algorithm_test.sh",
+      "rbkf_l1",
+      "500"
+    ],
+    "log": "results/bitwidth/logs/rbkf_l1_500.log",
+    "required": true,
+    "returncode": 0,
+    "seconds": 10.385,
+    "status": "PASS",
+    "test": "rbkf_l1_500"
+  },
+  {
+    "command": [
+      "bash",
+      "scripts/run_algorithm_test.sh",
+      "rbkf_l8",
+      "1"
+    ],
+    "log": "results/bitwidth/logs/rbkf_l8_1.log",
+    "required": true,
+    "returncode": 0,
+    "seconds": 0.13,
+    "status": "PASS",
+    "test": "rbkf_l8_1"
+  },
+  {
+    "command": [
+      "bash",
+      "scripts/run_algorithm_test.sh",
+      "rbkf_l8",
+      "500"
+    ],
+    "log": "results/bitwidth/logs/rbkf_l8_500.log",
+    "required": true,
+    "returncode": 0,
+    "seconds": 10.626,
+    "status": "PASS",
+    "test": "rbkf_l8_500"
+  },
+  {
+    "command": [
+      "<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_14/.venv/bin/python",
+      "python/compare_nominal_rtl.py"
+    ],
+    "log": "results/bitwidth/logs/compare_nominal_rtl.log",
+    "required": true,
+    "returncode": 0,
+    "seconds": 0.13,
+    "status": "PASS",
+    "test": "compare_nominal_rtl"
+  },
+  {
+    "command": [
+      "<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_14/.venv/bin/python",
+      "python/plot_nominal_results.py"
+    ],
+    "log": "results/bitwidth/logs/plots.log",
+    "required": false,
+    "returncode": 0,
+    "seconds": 0.722,
+    "status": "PASS",
+    "test": "plots"
+  },
+  {
+    "command": [
+      "<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_14/.venv/bin/python",
+      "python/report_bitwidth.py"
+    ],
+    "log": "results/bitwidth/logs/local_report.log",
+    "required": true,
+    "returncode": 0,
+    "seconds": 0.128,
+    "status": "PASS",
+    "test": "local_report"
+  }
+]

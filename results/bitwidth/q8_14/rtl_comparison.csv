@@ -1,0 +1,5 @@
+algorithm,W,F,requested_steps,completed_steps,implementation_status,numerical_status,first_failure_step,failure_reason,overflow_count,solver_error_count,numeric_error_count,state_bit_exact_rate,cov_bit_exact_rate,state_max_abs_code_diff,cov_max_abs_code_diff,negative_covariance_diagonal_count,covariance_symmetry_max_lsb,cycles_per_update_min,cycles_per_update_max,first_overflow_step,first_solver_error_step,first_numeric_error_step
+ekf,22,14,500,500,PASS,NO_RECORDED_FLAGS,,,0,0,0,1.0,1.0,0,0,0,0,1200,1200,,,
+bkf_l1,22,14,500,500,PASS,NO_RECORDED_FLAGS,,,0,0,0,1.0,1.0,0,0,0,1,1270,1270,,,
+rbkf_l1,22,14,500,500,PASS,NO_RECORDED_FLAGS,,,0,0,0,1.0,1.0,0,0,0,1,1270,1270,,,
+rbkf_l8,22,14,500,500,PASS,NO_RECORDED_FLAGS,,,0,0,0,1.0,1.0,0,0,0,1,1306,1306,,,

@@ -1,0 +1,755 @@
+{
+  "validation_date": "2026-09-14",
+  "scope": "Fresh regression after importing into BKF_Verilog; separate from the historical Project snapshots. The existing local Project Python environment was used; no Vivado execution.",
+  "vivado": "NOT_RUN",
+  "variants": {
+    "06_q8_14": {
+      "working_directory": "variants/06_q8_14",
+      "command": "make all",
+      "status": "PASS",
+      "test_stages_passed": 22,
+      "unit_tests_passed": 9,
+      "simulation_metrics_match_imported_snapshot": true,
+      "tests": [
+        {
+          "test": "format_generate",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.077
+        },
+        {
+          "test": "nominal_models",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.567
+        },
+        {
+          "test": "generate_luts",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.073
+        },
+        {
+          "test": "generate_nominal_vectors",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.182
+        },
+        {
+          "test": "generate_unit_vectors",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.132
+        },
+        {
+          "test": "reference_tests",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.51
+        },
+        {
+          "test": "lint",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.23
+        },
+        {
+          "test": "pipeline_structure",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.129
+        },
+        {
+          "test": "unit_tests",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.959
+        },
+        {
+          "test": "independent_arithmetic",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.396
+        },
+        {
+          "test": "validation_failure_checks",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.132
+        },
+        {
+          "test": "ekf_1",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.122
+        },
+        {
+          "test": "ekf_500",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 10.351
+        },
+        {
+          "test": "bkf_l1_1",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.128
+        },
+        {
+          "test": "bkf_l1_500",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 10.71
+        },
+        {
+          "test": "rbkf_l1_1",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.128
+        },
+        {
+          "test": "rbkf_l1_500",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 10.797
+        },
+        {
+          "test": "rbkf_l8_1",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.128
+        },
+        {
+          "test": "rbkf_l8_500",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 10.763
+        },
+        {
+          "test": "compare_nominal_rtl",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.131
+        },
+        {
+          "test": "plots",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.72
+        },
+        {
+          "test": "local_report",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.128
+        }
+      ],
+      "implementation": [
+        {
+          "F": 14,
+          "W": 22,
+          "algorithm": "ekf",
+          "completed_steps": 1,
+          "cov_bit_exact_rate": 1.0,
+          "cov_max_abs_code_diff": 0,
+          "covariance_symmetry_max_lsb": 0,
+          "cycles_per_update_max": 1200,
+          "cycles_per_update_min": 1200,
+          "failure_reason": "",
+          "first_failure_step": null,
+          "first_numeric_error_step": null,
+          "first_overflow_step": null,
+          "first_solver_error_step": null,
+          "implementation_status": "PASS",
+          "negative_covariance_diagonal_count": 0,
+          "numeric_error_count": 0,
+          "numerical_status": "NO_RECORDED_FLAGS",
+          "overflow_count": 0,
+          "requested_steps": 1,
+          "solver_error_count": 0,
+          "state_bit_exact_rate": 1.0,
+          "state_max_abs_code_diff": 0
+        },
+        {
+          "F": 14,
+          "W": 22,
+          "algorithm": "ekf",
+          "completed_steps": 500,
+          "cov_bit_exact_rate": 1.0,
+          "cov_max_abs_code_diff": 0,
+          "covariance_symmetry_max_lsb": 0,
+          "cycles_per_update_max": 1200,
+          "cycles_per_update_min": 1200,
+          "failure_reason": "",
+          "first_failure_step": null,
+          "first_numeric_error_step": null,
+          "first_overflow_step": null,
+          "first_solver_error_step": null,
+          "implementation_status": "PASS",
+          "negative_covariance_diagonal_count": 0,
+          "numeric_error_count": 0,
+          "numerical_status": "NO_RECORDED_FLAGS",
+          "overflow_count": 0,
+          "requested_steps": 500,
+          "solver_error_count": 0,
+          "state_bit_exact_rate": 1.0,
+          "state_max_abs_code_diff": 0
+        },
+        {
+          "F": 14,
+          "W": 22,
+          "algorithm": "bkf_l1",
+          "completed_steps": 1,
+          "cov_bit_exact_rate": 1.0,
+          "cov_max_abs_code_diff": 0,
+          "covariance_symmetry_max_lsb": 1,
+          "cycles_per_update_max": 1270,
+          "cycles_per_update_min": 1270,
+          "failure_reason": "",
+          "first_failure_step": null,
+          "first_numeric_error_step": null,
+          "first_overflow_step": null,
+          "first_solver_error_step": null,
+          "implementation_status": "PASS",
+          "negative_covariance_diagonal_count": 0,
+          "numeric_error_count": 0,
+          "numerical_status": "NO_RECORDED_FLAGS",
+          "overflow_count": 0,
+          "requested_steps": 1,
+          "solver_error_count": 0,
+          "state_bit_exact_rate": 1.0,
+          "state_max_abs_code_diff": 0
+        },
+        {
+          "F": 14,
+          "W": 22,
+          "algorithm": "bkf_l1",
+          "completed_steps": 500,
+          "cov_bit_exact_rate": 1.0,
+          "cov_max_abs_code_diff": 0,
+          "covariance_symmetry_max_lsb": 1,
+          "cycles_per_update_max": 1270,
+          "cycles_per_update_min": 1270,
+          "failure_reason": "",
+          "first_failure_step": null,
+          "first_numeric_error_step": null,
+          "first_overflow_step": null,
+          "first_solver_error_step": null,
+          "implementation_status": "PASS",
+          "negative_covariance_diagonal_count": 0,
+          "numeric_error_count": 0,
+          "numerical_status": "NO_RECORDED_FLAGS",
+          "overflow_count": 0,
+          "requested_steps": 500,
+          "solver_error_count": 0,
+          "state_bit_exact_rate": 1.0,
+          "state_max_abs_code_diff": 0
+        },
+        {
+          "F": 14,
+          "W": 22,
+          "algorithm": "rbkf_l1",
+          "completed_steps": 1,
+          "cov_bit_exact_rate": 1.0,
+          "cov_max_abs_code_diff": 0,
+          "covariance_symmetry_max_lsb": 1,
+          "cycles_per_update_max": 1270,
+          "cycles_per_update_min": 1270,
+          "failure_reason": "",
+          "first_failure_step": null,
+          "first_numeric_error_step": null,
+          "first_overflow_step": null,
+          "first_solver_error_step": null,
+          "implementation_status": "PASS",
+          "negative_covariance_diagonal_count": 0,
+          "numeric_error_count": 0,
+          "numerical_status": "NO_RECORDED_FLAGS",
+          "overflow_count": 0,
+          "requested_steps": 1,
+          "solver_error_count": 0,
+          "state_bit_exact_rate": 1.0,
+          "state_max_abs_code_diff": 0
+        },
+        {
+          "F": 14,
+          "W": 22,
+          "algorithm": "rbkf_l1",
+          "completed_steps": 500,
+          "cov_bit_exact_rate": 1.0,
+          "cov_max_abs_code_diff": 0,
+          "covariance_symmetry_max_lsb": 1,
+          "cycles_per_update_max": 1270,
+          "cycles_per_update_min": 1270,
+          "failure_reason": "",
+          "first_failure_step": null,
+          "first_numeric_error_step": null,
+          "first_overflow_step": null,
+          "first_solver_error_step": null,
+          "implementation_status": "PASS",
+          "negative_covariance_diagonal_count": 0,
+          "numeric_error_count": 0,
+          "numerical_status": "NO_RECORDED_FLAGS",
+          "overflow_count": 0,
+          "requested_steps": 500,
+          "solver_error_count": 0,
+          "state_bit_exact_rate": 1.0,
+          "state_max_abs_code_diff": 0
+        },
+        {
+          "F": 14,
+          "W": 22,
+          "algorithm": "rbkf_l8",
+          "completed_steps": 1,
+          "cov_bit_exact_rate": 1.0,
+          "cov_max_abs_code_diff": 0,
+          "covariance_symmetry_max_lsb": 1,
+          "cycles_per_update_max": 1306,
+          "cycles_per_update_min": 1306,
+          "failure_reason": "",
+          "first_failure_step": null,
+          "first_numeric_error_step": null,
+          "first_overflow_step": null,
+          "first_solver_error_step": null,
+          "implementation_status": "PASS",
+          "negative_covariance_diagonal_count": 0,
+          "numeric_error_count": 0,
+          "numerical_status": "NO_RECORDED_FLAGS",
+          "overflow_count": 0,
+          "requested_steps": 1,
+          "solver_error_count": 0,
+          "state_bit_exact_rate": 1.0,
+          "state_max_abs_code_diff": 0
+        },
+        {
+          "F": 14,
+          "W": 22,
+          "algorithm": "rbkf_l8",
+          "completed_steps": 500,
+          "cov_bit_exact_rate": 1.0,
+          "cov_max_abs_code_diff": 0,
+          "covariance_symmetry_max_lsb": 1,
+          "cycles_per_update_max": 1306,
+          "cycles_per_update_min": 1306,
+          "failure_reason": "",
+          "first_failure_step": null,
+          "first_numeric_error_step": null,
+          "first_overflow_step": null,
+          "first_solver_error_step": null,
+          "implementation_status": "PASS",
+          "negative_covariance_diagonal_count": 0,
+          "numeric_error_count": 0,
+          "numerical_status": "NO_RECORDED_FLAGS",
+          "overflow_count": 0,
+          "requested_steps": 500,
+          "solver_error_count": 0,
+          "state_bit_exact_rate": 1.0,
+          "state_max_abs_code_diff": 0
+        }
+      ],
+      "structural_audit": {
+        "status": "PASS",
+        "module_file_set_identical": true,
+        "module_count": 15,
+        "files_checked": 16,
+        "scope": "Read-only structural comparison against the latest source RTL project.\n\nThis bounded static audit checks FSM declarations/transitions, selected clock\nand ready/valid assignments, register names, ordered sequential destinations,\nand rounding/saturation call placement. It supplements executable regression;\nit is not a formal equivalence proof. Generated constants are validated by\nnominal_config.py, not this structural checker."
+      },
+      "evidence_sha256": {
+        "variants/06_q8_14/results/bitwidth/test_status.json": "74955c1a702cc26fec6a04718afe95eaf22e9a153f710410aa3b6889fefe98f4",
+        "variants/06_q8_14/results/bitwidth/implementation.json": "fedd3e0e121191e8701a81d99593a91489370e56f48108e1c78ac8aaae989110",
+        "variants/06_q8_14/results/bitwidth/simulation_metrics.csv": "d31f0b75bf8421de002ddbe8128f2a30ba1776eb5bb511f02522e75f8da8463d",
+        "variants/06_q8_14/results/bitwidth/unit/status.csv": "146d8683e7c76fce6efe2450317c88dff823d1556570f342bb7ab7c7746de40d",
+        "variants/06_q8_14/results/bitwidth/audit/rtl_structure.json": "62a3d5d2426eccb2db5c44976cfb5f7da5059730ce41ca8fe59cba2be0d08040"
+      }
+    },
+    "07_q8_12": {
+      "working_directory": "variants/07_q8_12",
+      "command": "make all",
+      "status": "PASS",
+      "test_stages_passed": 22,
+      "unit_tests_passed": 9,
+      "simulation_metrics_match_imported_snapshot": true,
+      "tests": [
+        {
+          "test": "format_generate",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.125
+        },
+        {
+          "test": "nominal_models",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.562
+        },
+        {
+          "test": "generate_luts",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.075
+        },
+        {
+          "test": "generate_nominal_vectors",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.186
+        },
+        {
+          "test": "generate_unit_vectors",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.13
+        },
+        {
+          "test": "reference_tests",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.507
+        },
+        {
+          "test": "lint",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.231
+        },
+        {
+          "test": "pipeline_structure",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.073
+        },
+        {
+          "test": "unit_tests",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.935
+        },
+        {
+          "test": "independent_arithmetic",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.392
+        },
+        {
+          "test": "validation_failure_checks",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.126
+        },
+        {
+          "test": "ekf_1",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.13
+        },
+        {
+          "test": "ekf_500",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 10.05
+        },
+        {
+          "test": "bkf_l1_1",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.132
+        },
+        {
+          "test": "bkf_l1_500",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 10.369
+        },
+        {
+          "test": "rbkf_l1_1",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.13
+        },
+        {
+          "test": "rbkf_l1_500",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 10.382
+        },
+        {
+          "test": "rbkf_l8_1",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.129
+        },
+        {
+          "test": "rbkf_l8_500",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 10.535
+        },
+        {
+          "test": "compare_nominal_rtl",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.131
+        },
+        {
+          "test": "plots",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.877
+        },
+        {
+          "test": "local_report",
+          "status": "PASS",
+          "returncode": 0,
+          "seconds": 0.132
+        }
+      ],
+      "implementation": [
+        {
+          "F": 12,
+          "W": 20,
+          "algorithm": "ekf",
+          "completed_steps": 1,
+          "cov_bit_exact_rate": 1.0,
+          "cov_max_abs_code_diff": 0,
+          "covariance_symmetry_max_lsb": 0,
+          "cycles_per_update_max": 1164,
+          "cycles_per_update_min": 1164,
+          "failure_reason": "",
+          "first_failure_step": null,
+          "first_numeric_error_step": null,
+          "first_overflow_step": null,
+          "first_solver_error_step": null,
+          "implementation_status": "PASS",
+          "negative_covariance_diagonal_count": 0,
+          "numeric_error_count": 0,
+          "numerical_status": "NO_RECORDED_FLAGS",
+          "overflow_count": 0,
+          "requested_steps": 1,
+          "solver_error_count": 0,
+          "state_bit_exact_rate": 1.0,
+          "state_max_abs_code_diff": 0
+        },
+        {
+          "F": 12,
+          "W": 20,
+          "algorithm": "ekf",
+          "completed_steps": 500,
+          "cov_bit_exact_rate": 1.0,
+          "cov_max_abs_code_diff": 0,
+          "covariance_symmetry_max_lsb": 0,
+          "cycles_per_update_max": 1164,
+          "cycles_per_update_min": 1164,
+          "failure_reason": "",
+          "first_failure_step": null,
+          "first_numeric_error_step": null,
+          "first_overflow_step": null,
+          "first_solver_error_step": null,
+          "implementation_status": "PASS",
+          "negative_covariance_diagonal_count": 0,
+          "numeric_error_count": 0,
+          "numerical_status": "NO_RECORDED_FLAGS",
+          "overflow_count": 0,
+          "requested_steps": 500,
+          "solver_error_count": 0,
+          "state_bit_exact_rate": 1.0,
+          "state_max_abs_code_diff": 0
+        },
+        {
+          "F": 12,
+          "W": 20,
+          "algorithm": "bkf_l1",
+          "completed_steps": 1,
+          "cov_bit_exact_rate": 1.0,
+          "cov_max_abs_code_diff": 0,
+          "covariance_symmetry_max_lsb": 0,
+          "cycles_per_update_max": 1234,
+          "cycles_per_update_min": 1234,
+          "failure_reason": "",
+          "first_failure_step": null,
+          "first_numeric_error_step": null,
+          "first_overflow_step": null,
+          "first_solver_error_step": null,
+          "implementation_status": "PASS",
+          "negative_covariance_diagonal_count": 0,
+          "numeric_error_count": 0,
+          "numerical_status": "NO_RECORDED_FLAGS",
+          "overflow_count": 0,
+          "requested_steps": 1,
+          "solver_error_count": 0,
+          "state_bit_exact_rate": 1.0,
+          "state_max_abs_code_diff": 0
+        },
+        {
+          "F": 12,
+          "W": 20,
+          "algorithm": "bkf_l1",
+          "completed_steps": 500,
+          "cov_bit_exact_rate": 1.0,
+          "cov_max_abs_code_diff": 0,
+          "covariance_symmetry_max_lsb": 1,
+          "cycles_per_update_max": 1234,
+          "cycles_per_update_min": 1234,
+          "failure_reason": "",
+          "first_failure_step": null,
+          "first_numeric_error_step": null,
+          "first_overflow_step": null,
+          "first_solver_error_step": null,
+          "implementation_status": "PASS",
+          "negative_covariance_diagonal_count": 0,
+          "numeric_error_count": 0,
+          "numerical_status": "NO_RECORDED_FLAGS",
+          "overflow_count": 0,
+          "requested_steps": 500,
+          "solver_error_count": 0,
+          "state_bit_exact_rate": 1.0,
+          "state_max_abs_code_diff": 0
+        },
+        {
+          "F": 12,
+          "W": 20,
+          "algorithm": "rbkf_l1",
+          "completed_steps": 1,
+          "cov_bit_exact_rate": 1.0,
+          "cov_max_abs_code_diff": 0,
+          "covariance_symmetry_max_lsb": 0,
+          "cycles_per_update_max": 1234,
+          "cycles_per_update_min": 1234,
+          "failure_reason": "",
+          "first_failure_step": null,
+          "first_numeric_error_step": null,
+          "first_overflow_step": null,
+          "first_solver_error_step": null,
+          "implementation_status": "PASS",
+          "negative_covariance_diagonal_count": 0,
+          "numeric_error_count": 0,
+          "numerical_status": "NO_RECORDED_FLAGS",
+          "overflow_count": 0,
+          "requested_steps": 1,
+          "solver_error_count": 0,
+          "state_bit_exact_rate": 1.0,
+          "state_max_abs_code_diff": 0
+        },
+        {
+          "F": 12,
+          "W": 20,
+          "algorithm": "rbkf_l1",
+          "completed_steps": 500,
+          "cov_bit_exact_rate": 1.0,
+          "cov_max_abs_code_diff": 0,
+          "covariance_symmetry_max_lsb": 1,
+          "cycles_per_update_max": 1234,
+          "cycles_per_update_min": 1234,
+          "failure_reason": "",
+          "first_failure_step": null,
+          "first_numeric_error_step": null,
+          "first_overflow_step": null,
+          "first_solver_error_step": null,
+          "implementation_status": "PASS",
+          "negative_covariance_diagonal_count": 0,
+          "numeric_error_count": 0,
+          "numerical_status": "NO_RECORDED_FLAGS",
+          "overflow_count": 0,
+          "requested_steps": 500,
+          "solver_error_count": 0,
+          "state_bit_exact_rate": 1.0,
+          "state_max_abs_code_diff": 0
+        },
+        {
+          "F": 12,
+          "W": 20,
+          "algorithm": "rbkf_l8",
+          "completed_steps": 1,
+          "cov_bit_exact_rate": 1.0,
+          "cov_max_abs_code_diff": 0,
+          "covariance_symmetry_max_lsb": 1,
+          "cycles_per_update_max": 1270,
+          "cycles_per_update_min": 1270,
+          "failure_reason": "",
+          "first_failure_step": null,
+          "first_numeric_error_step": null,
+          "first_overflow_step": null,
+          "first_solver_error_step": null,
+          "implementation_status": "PASS",
+          "negative_covariance_diagonal_count": 0,
+          "numeric_error_count": 0,
+          "numerical_status": "NO_RECORDED_FLAGS",
+          "overflow_count": 0,
+          "requested_steps": 1,
+          "solver_error_count": 0,
+          "state_bit_exact_rate": 1.0,
+          "state_max_abs_code_diff": 0
+        },
+        {
+          "F": 12,
+          "W": 20,
+          "algorithm": "rbkf_l8",
+          "completed_steps": 500,
+          "cov_bit_exact_rate": 1.0,
+          "cov_max_abs_code_diff": 0,
+          "covariance_symmetry_max_lsb": 1,
+          "cycles_per_update_max": 1270,
+          "cycles_per_update_min": 1270,
+          "failure_reason": "",
+          "first_failure_step": null,
+          "first_numeric_error_step": null,
+          "first_overflow_step": null,
+          "first_solver_error_step": null,
+          "implementation_status": "PASS",
+          "negative_covariance_diagonal_count": 0,
+          "numeric_error_count": 0,
+          "numerical_status": "NO_RECORDED_FLAGS",
+          "overflow_count": 0,
+          "requested_steps": 500,
+          "solver_error_count": 0,
+          "state_bit_exact_rate": 1.0,
+          "state_max_abs_code_diff": 0
+        }
+      ],
+      "structural_audit": {
+        "status": "PASS",
+        "module_file_set_identical": true,
+        "module_count": 15,
+        "files_checked": 16,
+        "scope": "Read-only structural comparison against the latest source RTL project.\n\nThis bounded static audit checks FSM declarations/transitions, selected clock\nand ready/valid assignments, register names, ordered sequential destinations,\nand rounding/saturation call placement. It supplements executable regression;\nit is not a formal equivalence proof. Generated constants are validated by\nnominal_config.py, not this structural checker."
+      },
+      "evidence_sha256": {
+        "variants/07_q8_12/results/bitwidth/test_status.json": "46fe434963b63fd501bce5c34af070ded5c5a04e5ad2e104f1a131307dce1086",
+        "variants/07_q8_12/results/bitwidth/implementation.json": "67260f2e073cf1d8a038ce30a7da4e5fd8149faed25d8e6352f734a5d3f53019",
+        "variants/07_q8_12/results/bitwidth/simulation_metrics.csv": "e9154c54aa2c6571c48b30ced28ff65b90e1381cc9ac02fedc7ab80714552ad2",
+        "variants/07_q8_12/results/bitwidth/unit/status.csv": "146d8683e7c76fce6efe2450317c88dff823d1556570f342bb7ab7c7746de40d",
+        "variants/07_q8_12/results/bitwidth/audit/rtl_structure.json": "6580dcac37f25c26b1e69d6b3d86e7356bddd2576c7177059ad7e32efcd26597"
+      }
+    }
+  },
+  "q8_16_compatibility": {
+    "working_directory": "variants/06_q8_14",
+    "command": "make test-q8-16-regression",
+    "baseline_variant": "05_ekf_overflow_pipeline",
+    "scope": "Executed from 06_q8_14 with an isolated W24/F16 generalized copy and fresh isolated 05 baseline. Not separately rerun from 07_q8_12.",
+    "status": "PASS",
+    "source_unchanged": true,
+    "baseline_execution_passed": true,
+    "generalized_execution_passed": true,
+    "structure_audit_passed": true,
+    "comparison_passed": true,
+    "source_manifest_files": 48,
+    "source_changed_files": [],
+    "failures": [],
+    "comparison_counts": {
+      "reference_arrays_compared": 104,
+      "reference_elements_compared": 306000,
+      "regenerated_vector_files_compared": 56,
+      "regenerated_vector_words_compared": 30551,
+      "rtl_runs_compared": 8
+    },
+    "algorithm_status": {
+      "bkf_l1": "PASS",
+      "ekf": "PASS",
+      "rbkf_l1": "PASS",
+      "rbkf_l8": "PASS"
+    },
+    "evidence_sha256": {
+      "variants/06_q8_14/results/bitwidth/q8_16_regression_reproduction/summary.json": "389545e009d3ffa06b122644065f939c64bcb30401f55d149d49288e23b80b43",
+      "variants/06_q8_14/results/bitwidth/q8_16_regression_reproduction/comparison.json": "ee41bf286a344efb598ff991945f016b34e10ec5d33a8728e35ff65525c066f7"
+    }
+  }
+}

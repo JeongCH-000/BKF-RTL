@@ -1,0 +1,7 @@
+{
+  "checks": 3591,
+  "numerical_diagnostics": "results/bitwidth/python_numerical_diagnostics.json",
+  "q_format": "signed Q8.12",
+  "scope": "arithmetic/format/algorithm identity invariants; no numerical-quality threshold asserted",
+  "status": "PASS"
+}

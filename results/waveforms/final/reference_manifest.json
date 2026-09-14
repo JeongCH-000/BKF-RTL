@@ -1,0 +1,481 @@
+{
+  "archives": {
+    "fixed_bkf_l1": {
+      "branch_bits": {
+        "dtype": "|u1",
+        "sha256": "eab0dc0093af42d6e2d1dac1b93b97ae12e70ee335a6fbafc6afcb370d13b4b8",
+        "shape": [
+          500,
+          1,
+          3
+        ]
+      },
+      "branch_sum": {
+        "dtype": "<i8",
+        "sha256": "f69c36d01d4797d50dd71ec066f13a2f4484efdf9977e3ca56bc3892357dae86",
+        "shape": [
+          500,
+          3
+        ]
+      },
+      "cov_post": {
+        "dtype": "<i8",
+        "sha256": "d600e94180a7f923fbc0a2281985a3ac84af7c8ef1f7806029b6c216ecc63970",
+        "shape": [
+          500,
+          3,
+          3
+        ]
+      },
+      "cov_predict": {
+        "dtype": "<i8",
+        "sha256": "3e232a124b037028fa12f22dd9d526b630106cbaca35599d39daf61ac6ce96a5",
+        "shape": [
+          500,
+          3,
+          3
+        ]
+      },
+      "determinant": {
+        "dtype": "<i8",
+        "sha256": "415e3e9e11f43866a72a35f7ebf106340f58436d254ce2cf1683bc801fd327ff",
+        "shape": [
+          500
+        ]
+      },
+      "f_matrix": {
+        "dtype": "<i8",
+        "sha256": "5966b3331b013dc29c28b4b2dd092b3b51b79af52cd9a816d20d97b42aff4f07",
+        "shape": [
+          500,
+          3,
+          3
+        ]
+      },
+      "gain": {
+        "dtype": "<i8",
+        "sha256": "c960a9f7a6cdc3814d8b5c5e1eceb57279b1923d2032ade6a60bf94bc708d18e",
+        "shape": [
+          500,
+          3,
+          3
+        ]
+      },
+      "observation_cov": {
+        "dtype": "<i8",
+        "sha256": "fb9e619b26c643108f3970723b9f291fd6495612ac58a790ec1757f22e10aa96",
+        "shape": [
+          500,
+          3,
+          3
+        ]
+      },
+      "reduced_observation": {
+        "dtype": "<i8",
+        "sha256": "420f6a662209f0a2030e5dfa06f299e2d2b4814e1f1ac5b1fb9acf5847daf0df",
+        "shape": [
+          500,
+          3
+        ]
+      },
+      "solver_error": {
+        "dtype": "<i8",
+        "sha256": "fc19b1997119425765295aeab72d76faa6927d4f83985d328c26f20468d6cc76",
+        "shape": [
+          500
+        ]
+      },
+      "state_post": {
+        "dtype": "<i8",
+        "sha256": "35fb15d8b94999b9d4ae67eb4992cec8963bf7ae09f910449642941eba364059",
+        "shape": [
+          500,
+          3
+        ]
+      },
+      "state_predict": {
+        "dtype": "<i8",
+        "sha256": "21a3e142da5e1204e2978e4032b37e1a709cc04c2039cf9f0e5cfdd4c926aa2e",
+        "shape": [
+          500,
+          3
+        ]
+      },
+      "threshold": {
+        "dtype": "<i8",
+        "sha256": "21a3e142da5e1204e2978e4032b37e1a709cc04c2039cf9f0e5cfdd4c926aa2e",
+        "shape": [
+          500,
+          3
+        ]
+      }
+    },
+    "fixed_ekf": {
+      "branch_bits": {
+        "dtype": "|u1",
+        "sha256": "6249da5c681dd8a542b8e38150a3026e02385d590a9dd94f4f83940fd856ee73",
+        "shape": [
+          500,
+          1,
+          3
+        ]
+      },
+      "branch_sum": {
+        "dtype": "<i8",
+        "sha256": "ff6698a6e831ffcf47af2fed388ffc262f319e72b26cd140929d1e19b1246ad4",
+        "shape": [
+          500,
+          3
+        ]
+      },
+      "cov_post": {
+        "dtype": "<i8",
+        "sha256": "6502ffb49a5773503d52538ed3653531ad35167c23ede7ac446f6df8e3c59485",
+        "shape": [
+          500,
+          3,
+          3
+        ]
+      },
+      "cov_predict": {
+        "dtype": "<i8",
+        "sha256": "dd3d9743d1d7473e29cb3cdaff650cf244ce12c447de0fc903822fdac405f8e2",
+        "shape": [
+          500,
+          3,
+          3
+        ]
+      },
+      "determinant": {
+        "dtype": "<i8",
+        "sha256": "b64a1f6d5cdf81de2e2b3115d94a938d88f645e21e5d6d6680e00f68b190c48f",
+        "shape": [
+          500
+        ]
+      },
+      "f_matrix": {
+        "dtype": "<i8",
+        "sha256": "6b3e95940df2be816cbd189640f17044d9a4e20ba5427a7bef2ac332110dad44",
+        "shape": [
+          500,
+          3,
+          3
+        ]
+      },
+      "gain": {
+        "dtype": "<i8",
+        "sha256": "363d31e5ae4d09a2259152f7b306544c75c7a5717825c387da336644d7cc7d6f",
+        "shape": [
+          500,
+          3,
+          3
+        ]
+      },
+      "observation_cov": {
+        "dtype": "<i8",
+        "sha256": "f32224d6d5a33f7fa8c2112e1dd7cc98c8f04db5dc9d9448eafae7fcdf8f26e6",
+        "shape": [
+          500,
+          3,
+          3
+        ]
+      },
+      "reduced_observation": {
+        "dtype": "<i8",
+        "sha256": "7b2fc6a5367629779aefb6786e9ccec562b1448c40c33b0f3ce481686bba563c",
+        "shape": [
+          500,
+          3
+        ]
+      },
+      "solver_error": {
+        "dtype": "<i8",
+        "sha256": "fc19b1997119425765295aeab72d76faa6927d4f83985d328c26f20468d6cc76",
+        "shape": [
+          500
+        ]
+      },
+      "state_post": {
+        "dtype": "<i8",
+        "sha256": "36eb767107bb4feb7a2682aa15b2ba852e98b5e156dcbd42cb49966dbc60c5c1",
+        "shape": [
+          500,
+          3
+        ]
+      },
+      "state_predict": {
+        "dtype": "<i8",
+        "sha256": "126010e8c3c524b8f9c83048ba52f00876eb4b2543285842ca58d48d11890587",
+        "shape": [
+          500,
+          3
+        ]
+      },
+      "threshold": {
+        "dtype": "<i8",
+        "sha256": "126010e8c3c524b8f9c83048ba52f00876eb4b2543285842ca58d48d11890587",
+        "shape": [
+          500,
+          3
+        ]
+      }
+    },
+    "fixed_rbkf_l1": {
+      "branch_bits": {
+        "dtype": "|u1",
+        "sha256": "eab0dc0093af42d6e2d1dac1b93b97ae12e70ee335a6fbafc6afcb370d13b4b8",
+        "shape": [
+          500,
+          1,
+          3
+        ]
+      },
+      "branch_sum": {
+        "dtype": "<i8",
+        "sha256": "f69c36d01d4797d50dd71ec066f13a2f4484efdf9977e3ca56bc3892357dae86",
+        "shape": [
+          500,
+          3
+        ]
+      },
+      "cov_post": {
+        "dtype": "<i8",
+        "sha256": "d600e94180a7f923fbc0a2281985a3ac84af7c8ef1f7806029b6c216ecc63970",
+        "shape": [
+          500,
+          3,
+          3
+        ]
+      },
+      "cov_predict": {
+        "dtype": "<i8",
+        "sha256": "3e232a124b037028fa12f22dd9d526b630106cbaca35599d39daf61ac6ce96a5",
+        "shape": [
+          500,
+          3,
+          3
+        ]
+      },
+      "determinant": {
+        "dtype": "<i8",
+        "sha256": "415e3e9e11f43866a72a35f7ebf106340f58436d254ce2cf1683bc801fd327ff",
+        "shape": [
+          500
+        ]
+      },
+      "f_matrix": {
+        "dtype": "<i8",
+        "sha256": "5966b3331b013dc29c28b4b2dd092b3b51b79af52cd9a816d20d97b42aff4f07",
+        "shape": [
+          500,
+          3,
+          3
+        ]
+      },
+      "gain": {
+        "dtype": "<i8",
+        "sha256": "c960a9f7a6cdc3814d8b5c5e1eceb57279b1923d2032ade6a60bf94bc708d18e",
+        "shape": [
+          500,
+          3,
+          3
+        ]
+      },
+      "observation_cov": {
+        "dtype": "<i8",
+        "sha256": "fb9e619b26c643108f3970723b9f291fd6495612ac58a790ec1757f22e10aa96",
+        "shape": [
+          500,
+          3,
+          3
+        ]
+      },
+      "reduced_observation": {
+        "dtype": "<i8",
+        "sha256": "420f6a662209f0a2030e5dfa06f299e2d2b4814e1f1ac5b1fb9acf5847daf0df",
+        "shape": [
+          500,
+          3
+        ]
+      },
+      "solver_error": {
+        "dtype": "<i8",
+        "sha256": "fc19b1997119425765295aeab72d76faa6927d4f83985d328c26f20468d6cc76",
+        "shape": [
+          500
+        ]
+      },
+      "state_post": {
+        "dtype": "<i8",
+        "sha256": "35fb15d8b94999b9d4ae67eb4992cec8963bf7ae09f910449642941eba364059",
+        "shape": [
+          500,
+          3
+        ]
+      },
+      "state_predict": {
+        "dtype": "<i8",
+        "sha256": "21a3e142da5e1204e2978e4032b37e1a709cc04c2039cf9f0e5cfdd4c926aa2e",
+        "shape": [
+          500,
+          3
+        ]
+      },
+      "threshold": {
+        "dtype": "<i8",
+        "sha256": "21a3e142da5e1204e2978e4032b37e1a709cc04c2039cf9f0e5cfdd4c926aa2e",
+        "shape": [
+          500,
+          3
+        ]
+      }
+    },
+    "fixed_rbkf_l8": {
+      "branch_bits": {
+        "dtype": "|u1",
+        "sha256": "329d5cb14fb6d0ce260ec6989979df38ce0c97d3e1f265b80af006c15660b7e2",
+        "shape": [
+          500,
+          8,
+          3
+        ]
+      },
+      "branch_sum": {
+        "dtype": "<i8",
+        "sha256": "ea4ea5bc284487563732881f1e7cedcc1c2060e0259a3b548a8689ddac33b8dd",
+        "shape": [
+          500,
+          3
+        ]
+      },
+      "cov_post": {
+        "dtype": "<i8",
+        "sha256": "2ff1750d303c0300a35df7831881db5c2520d42ddbbefe6795f78e24f89e7eb1",
+        "shape": [
+          500,
+          3,
+          3
+        ]
+      },
+      "cov_predict": {
+        "dtype": "<i8",
+        "sha256": "5a02d863e7ad43cdcaa3a743742e1949339fd2a188c0e3db3eeecfca54de4d65",
+        "shape": [
+          500,
+          3,
+          3
+        ]
+      },
+      "determinant": {
+        "dtype": "<i8",
+        "sha256": "3df5c5e45548c41741deb4940a3d3bc676a202902c1a3827312e1daa84dadc9e",
+        "shape": [
+          500
+        ]
+      },
+      "f_matrix": {
+        "dtype": "<i8",
+        "sha256": "cbe909916541f36bab696bd184845a8d0079a56ab2480566eed7aa33395035ce",
+        "shape": [
+          500,
+          3,
+          3
+        ]
+      },
+      "gain": {
+        "dtype": "<i8",
+        "sha256": "f9bc0fce5059a44e1d69f88c55ef7185f3511778a2fefc0b8bb864957999a7a7",
+        "shape": [
+          500,
+          3,
+          3
+        ]
+      },
+      "observation_cov": {
+        "dtype": "<i8",
+        "sha256": "e14cb62cb19fb4b08885647c23dce4cb034eb45492288eb02329b14cf8844c9f",
+        "shape": [
+          500,
+          3,
+          3
+        ]
+      },
+      "reduced_observation": {
+        "dtype": "<i8",
+        "sha256": "6f385a089989793483667937f3484cc91525f39f646e9359b07fb2b13ad34e78",
+        "shape": [
+          500,
+          3
+        ]
+      },
+      "solver_error": {
+        "dtype": "<i8",
+        "sha256": "fc19b1997119425765295aeab72d76faa6927d4f83985d328c26f20468d6cc76",
+        "shape": [
+          500
+        ]
+      },
+      "state_post": {
+        "dtype": "<i8",
+        "sha256": "ac8722c10a64ea15fb74c8dd5f229b34261202e54e867f2b44172ffd25918429",
+        "shape": [
+          500,
+          3
+        ]
+      },
+      "state_predict": {
+        "dtype": "<i8",
+        "sha256": "275587db692ec8f6df3c79a92d605e3a14163869e8b3b65277349f18d4bd8102",
+        "shape": [
+          500,
+          3
+        ]
+      },
+      "threshold": {
+        "dtype": "<i8",
+        "sha256": "275587db692ec8f6df3c79a92d605e3a14163869e8b3b65277349f18d4bd8102",
+        "shape": [
+          500,
+          3
+        ]
+      }
+    },
+    "stimulus": {
+      "measurement": {
+        "dtype": "<f8",
+        "sha256": "9e5c76d77d70d0402ffe6c78d66e138602e9d69149c13478bc2df02590ec6c91",
+        "shape": [
+          500,
+          8,
+          3
+        ]
+      },
+      "measurement_noise": {
+        "dtype": "<f8",
+        "sha256": "022d4d62bd81eaccad134b9afdf84e62feddce24c7a6a2c839177df92aa06421",
+        "shape": [
+          500,
+          8,
+          3
+        ]
+      },
+      "process_noise": {
+        "dtype": "<f8",
+        "sha256": "9fd999e888a2507707f315aa4207a63e1ae9373cd52273f35045827b1599894f",
+        "shape": [
+          500,
+          3
+        ]
+      },
+      "target": {
+        "dtype": "<f8",
+        "sha256": "251966b4533d0661f3103c43e30f8fc0d15001029ea0e5f2a8d24d4e7e0ccb31",
+        "shape": [
+          500,
+          3
+        ]
+      }
+    }
+  },
+  "encoding": "C-order array bytes, little-endian dtype; shape and dtype checked separately"
+}

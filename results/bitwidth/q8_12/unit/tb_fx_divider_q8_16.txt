@@ -1,0 +1,2 @@
+PASS: divider directed=27 randomized=2000 protocol=2 mismatch=0 seed=20260830 latency_nonzero=35 latency_div0=0 initiation_interval_nonzero=36 accepted=2029 completed=2029
+tb/unit/tb_fx_divider_q8_16.v:400: $finish called at 730011000 (1ps)

@@ -1,0 +1,2 @@
+command: ["<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_14/.venv/bin/python", "python/nominal_models.py"]
+PASS: generated deterministic float/fixed EKF, BKF L=1, rBKF L=1/L=8 references

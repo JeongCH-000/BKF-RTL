@@ -1,0 +1,2 @@
+command: ["<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_12/.venv/bin/python", "python/test_reference_models.py"]
+PASS: reference invariants (3591 checks, reduced formula max error 2.22e-16, LUT errors rsqrt=0.000122, arcsine_cov=0.000122)

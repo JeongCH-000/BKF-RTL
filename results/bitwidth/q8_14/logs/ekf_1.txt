@@ -1,0 +1,4 @@
+command: ["bash", "scripts/run_algorithm_test.sh", "ekf", "1"]
+PASS: 1/1 EKF steps matched bit-exactly
+tb/integration/tb_ekf_full.sv:500: $finish called at 12090000 (1ps)
+PASS: ekf complete, ordered, known-valued CSV rows=1

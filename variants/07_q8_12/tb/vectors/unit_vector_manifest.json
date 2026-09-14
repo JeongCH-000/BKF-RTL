@@ -1,0 +1,19 @@
+{
+  "files": {
+    "unit_inverse_det.hex": "846d40fb5630b9cc3ccdc0e300ef56cd420ad3f834f42525946ebe174c9565af",
+    "unit_inverse_flags.hex": "5106b0e3afb3c7dc47840402130a0869b205a6057d000be25191af734f094e1a",
+    "unit_inverse_input.hex": "19850062fcf882102542dc46773de916d58bed14b66acdffd13c3515b87f929e",
+    "unit_inverse_y.hex": "1cbf1f465e8389f3bdba6459d9af05d15613d0a69d5bc7feabbc1b8491bea1f8",
+    "unit_matmul_a.hex": "bdcc164e932e6f76fe7560c537d873902ea1611f9a6ffab351badb006900bcbf",
+    "unit_matmul_b.hex": "d687f6af5b4b93ff4f3cfe61fe5c818f5d905b3bd48306837b9753dcc377b4e4",
+    "unit_matmul_flags.hex": "2bfc79c07a8b22e1d356ac450dd053a3747fe8ec103fe20b0fb86360fb2bb679",
+    "unit_matmul_y.hex": "aaa83b4b963f0057b77c0b6be0ae334353e66a3ff7456d801a26700d69e21ae0"
+  },
+  "fractional_bits": 12,
+  "includes_near_singular": true,
+  "includes_singular": true,
+  "inverse_cases": 25,
+  "matmul_cases": 64,
+  "q_format": "signed Q8.12",
+  "signed_width": 20
+}

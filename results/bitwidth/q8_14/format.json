@@ -1,0 +1,26 @@
+{
+  "config_sha256": "4b3a8c416b4f69e09b9e974aa1eace8d56d7f1ba0a673c66d9497e23d203dcb8",
+  "constants": {
+    "ALPHA": 13073,
+    "DET_FLOOR": 16,
+    "DIAG_FLOOR": 16,
+    "MAX": 2097151,
+    "MIN": -2097152,
+    "NEG_ONE": -16384,
+    "ONE": 16384,
+    "Q_DIAG": 16,
+    "R_DIAG": 1638
+  },
+  "determinant_floor_real": 0.0009765625,
+  "diagonal_floor_real": 0.0009765625,
+  "fractional_bits": 14,
+  "header_sha256": "eada33de7526e1e26885494c49047dcdeb0a007b7b5df4f2820771aa480caf80",
+  "integer_bits_including_sign": 8,
+  "product_width": 44,
+  "q_format": "signed Q8.14",
+  "rounding": "nearest_ties_away_from_zero",
+  "saturation": "signed_22_bit",
+  "scale": 16384,
+  "signed_width": 22,
+  "three_term_mac_width": 46
+}

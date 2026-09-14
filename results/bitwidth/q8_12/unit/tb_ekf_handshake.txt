@@ -1,0 +1,2 @@
+PASS: EKF input delay and result backpressure
+tb/integration/tb_ekf_handshake.sv:92: $finish called at 11781000 (1ps)

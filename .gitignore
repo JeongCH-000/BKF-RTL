@@ -6,6 +6,9 @@
 
 variants/*/results/
 
+# Original local bit-width reports are curated under results/vivado/q8_*/.
+/results_bit-width/
+
 *.vvp
 *.fst
 *.wdb

@@ -1,0 +1,2 @@
+# Same NumPy version as the final project's requirements.txt.
+numpy==2.5.1

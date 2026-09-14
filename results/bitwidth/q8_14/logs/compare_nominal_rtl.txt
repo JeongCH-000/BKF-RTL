@@ -1,0 +1,5 @@
+command: ["<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_14/.venv/bin/python", "python/compare_nominal_rtl.py"]
+PASS: ekf 500/500 updates; numerical=NO_RECORDED_FLAGS
+PASS: bkf_l1 500/500 updates; numerical=NO_RECORDED_FLAGS
+PASS: rbkf_l1 500/500 updates; numerical=NO_RECORDED_FLAGS
+PASS: rbkf_l8 500/500 updates; numerical=NO_RECORDED_FLAGS

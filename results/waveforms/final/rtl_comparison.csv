@@ -1,0 +1,5 @@
+algorithm,state_bit_exact_rate,cov_bit_exact_rate,state_max_abs_code_diff,state_mean_abs_code_diff,cov_max_abs_code_diff,cov_mean_abs_code_diff,overflow_count,solver_error_count,covariance_symmetry_max_lsb,negative_covariance_diagonal_count,cycles_per_update_min,cycles_per_update_max
+ekf,1.0,1.0,0,0.0,0,0.0,0,0,0,0,1236,1236
+bkf_l1,1.0,1.0,0,0.0,0,0.0,0,0,1,0,1306,1306
+rbkf_l1,1.0,1.0,0,0.0,0,0.0,0,0,1,0,1306,1306
+rbkf_l8,1.0,1.0,0,0.0,0,0.0,0,0,1,0,1342,1342

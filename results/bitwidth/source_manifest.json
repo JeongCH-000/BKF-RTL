@@ -1,0 +1,1049 @@
+{
+  "scope": "Imported Project software evidence and existing results_bit-width hardware reports; no simulation or Vivado execution implied by import.",
+  "path_normalization": "Host replaced by REDACTED; Windows/macOS user-home prefixes by <USER_HOME>; macOS temporary prefixes by <TMPDIR>. Numeric results are unchanged. Curated Vivado reports also remove trailing spaces/tabs; numeric content is unchanged. All packaged text files use LF line endings for Git checkout stability. Imported text logs also have trailing spaces/tabs removed. Preserved logs use .txt extension so generated *.log ignores remain applicable.",
+  "files": [
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/accuracy_comparison.csv",
+      "destination": "results/bitwidth/accuracy_comparison.csv",
+      "source_sha256": "b95aba299f86b666fdf11c6028ebf98dc121377b77d0f52da5ac372be4dbe244",
+      "packaged_sha256": "f28560a30a0066d1eecd5ffecca3dec63a2c6df94ec54465364a35cce9906303",
+      "transformation": "anonymized host and user/temp path prefixes; normalize CRLF to LF"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/input_float_equivalence.json",
+      "destination": "results/bitwidth/input_float_equivalence.json",
+      "source_sha256": "90f5ca88b55e33f5348b44b18f4efb225edd8c063a6c37c12f4bef3808d90334",
+      "packaged_sha256": "90f5ca88b55e33f5348b44b18f4efb225edd8c063a6c37c12f4bef3808d90334",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/format.json",
+      "destination": "results/bitwidth/q8_14/format.json",
+      "source_sha256": "1ed454aaaa1c8d68d9f56e4397ef65d21297d263f1d0dbe675195b605efe3cff",
+      "packaged_sha256": "1ed454aaaa1c8d68d9f56e4397ef65d21297d263f1d0dbe675195b605efe3cff",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/implementation.json",
+      "destination": "results/bitwidth/q8_14/implementation.json",
+      "source_sha256": "fedd3e0e121191e8701a81d99593a91489370e56f48108e1c78ac8aaae989110",
+      "packaged_sha256": "fedd3e0e121191e8701a81d99593a91489370e56f48108e1c78ac8aaae989110",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/input_checksums.json",
+      "destination": "results/bitwidth/q8_14/input_checksums.json",
+      "source_sha256": "cb6b3a13f922126546455ef3eaefc0089e42df0bd33176854673360f756dda53",
+      "packaged_sha256": "cb6b3a13f922126546455ef3eaefc0089e42df0bd33176854673360f756dda53",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/simulation_metrics.csv",
+      "destination": "results/bitwidth/q8_14/simulation_metrics.csv",
+      "source_sha256": "d31f0b75bf8421de002ddbe8128f2a30ba1776eb5bb511f02522e75f8da8463d",
+      "packaged_sha256": "90a613457dc501f09de6ce0c96cbfa6ee07f5053366a3a44d26dc71b64f49e24",
+      "transformation": "normalize CRLF to LF"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/rtl_comparison.csv",
+      "destination": "results/bitwidth/q8_14/rtl_comparison.csv",
+      "source_sha256": "2c5124ff0022c83d75419605adc1a000cdad6400a5238b9798a4e0686ddb2e26",
+      "packaged_sha256": "57768215f5a5b8a0769e0eb190bc2bee718cd1276c7e0a4d78e1a4aa8ac98168",
+      "transformation": "normalize CRLF to LF"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/rtl_comparison.json",
+      "destination": "results/bitwidth/q8_14/rtl_comparison.json",
+      "source_sha256": "48b25982003ee44246af52a1af062aa348eb1178208625429b8e8a626ff5cc53",
+      "packaged_sha256": "48b25982003ee44246af52a1af062aa348eb1178208625429b8e8a626ff5cc53",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/test_status.json",
+      "destination": "results/bitwidth/q8_14/test_status.json",
+      "source_sha256": "3c118ed93bedc646de5782ec975578d2c9ad67e6c7863618f1636286e07fb35d",
+      "packaged_sha256": "49fab3777294b8a0f45bef71be7463ca00e33abcee2a22a7f7baa684613d7589",
+      "transformation": "anonymized host and user/temp path prefixes"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/reference_test_status.json",
+      "destination": "results/bitwidth/q8_14/reference_test_status.json",
+      "source_sha256": "ffb9ba0cd1fe123d1aebf9e04e9cb9811df023da2d69fef9082a9ce069bdb112",
+      "packaged_sha256": "ffb9ba0cd1fe123d1aebf9e04e9cb9811df023da2d69fef9082a9ce069bdb112",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/validation_failure_checks.json",
+      "destination": "results/bitwidth/q8_14/validation_failure_checks.json",
+      "source_sha256": "8b7ea430de9a2edf6255ea1a5c3c540af5eae2c435a587e1c0d8e837a58e9c30",
+      "packaged_sha256": "8b7ea430de9a2edf6255ea1a5c3c540af5eae2c435a587e1c0d8e837a58e9c30",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/python_numerical_diagnostics.json",
+      "destination": "results/bitwidth/q8_14/python_numerical_diagnostics.json",
+      "source_sha256": "e1441cba0325e8d71a1e0644f41d6cf2e64087d6abce07ae5cdf3f996be64d9b",
+      "packaged_sha256": "e1441cba0325e8d71a1e0644f41d6cf2e64087d6abce07ae5cdf3f996be64d9b",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/lut_error.json",
+      "destination": "results/bitwidth/q8_14/lut_error.json",
+      "source_sha256": "8c86765e9b2f23ded58d9bb677994008967fae9c8f1920a2083455705107a86c",
+      "packaged_sha256": "8c86765e9b2f23ded58d9bb677994008967fae9c8f1920a2083455705107a86c",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/tool_versions.json",
+      "destination": "results/bitwidth/q8_14/tool_versions.json",
+      "source_sha256": "ecf3d746eb4fdcd2573a13d5e8de27ecc69d08aa1298f2ef534c26dd53fa6440",
+      "packaged_sha256": "e2b136dd0fd9d89ccf2b7babd8ab1a90af46ec67f6471dd33b6de6158af6bb51",
+      "transformation": "anonymized host and user/temp path prefixes"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/final_source_checksums.json",
+      "destination": "results/bitwidth/q8_14/final_source_checksums.json",
+      "source_sha256": "b7ed33771cfb5a3812f4d1e9ec6fa0ab6c90c2a8bed7f5f6a47a483124ccafc0",
+      "packaged_sha256": "b7ed33771cfb5a3812f4d1e9ec6fa0ab6c90c2a8bed7f5f6a47a483124ccafc0",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/bkf_l1_1.log",
+      "destination": "results/bitwidth/q8_14/logs/bkf_l1_1.txt",
+      "source_sha256": "cb203a6296d6e9bb2663fcf9671ceafac5c6e8df9324d578dd3dc6a287d591aa",
+      "packaged_sha256": "cb203a6296d6e9bb2663fcf9671ceafac5c6e8df9324d578dd3dc6a287d591aa",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/bkf_l1_500.log",
+      "destination": "results/bitwidth/q8_14/logs/bkf_l1_500.txt",
+      "source_sha256": "dfaa4289322bdfce7f713d29b2f02e5744136333d8b214eab0008ac90cd71d2f",
+      "packaged_sha256": "dfaa4289322bdfce7f713d29b2f02e5744136333d8b214eab0008ac90cd71d2f",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/compare_nominal_rtl.log",
+      "destination": "results/bitwidth/q8_14/logs/compare_nominal_rtl.txt",
+      "source_sha256": "9bd733e30cbea842e2e40552931c635472d3cca660c2ddb4f3aec04aec7822d7",
+      "packaged_sha256": "52102542f680b8bcdf605d67f19ffd639c57c89686fe73077041d3b67cb59799",
+      "transformation": "anonymized host and user/temp path prefixes; remove trailing spaces/tabs; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/ekf_1.log",
+      "destination": "results/bitwidth/q8_14/logs/ekf_1.txt",
+      "source_sha256": "6df1e22623094a3a49282120b56d70baf93cfbecd3764ea8f49910cf4f40233b",
+      "packaged_sha256": "6df1e22623094a3a49282120b56d70baf93cfbecd3764ea8f49910cf4f40233b",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/ekf_500.log",
+      "destination": "results/bitwidth/q8_14/logs/ekf_500.txt",
+      "source_sha256": "548b8a11e7072a8a99c963ee931cd3b14f7f98e5c6b04bad94ad3e2bfc52f305",
+      "packaged_sha256": "548b8a11e7072a8a99c963ee931cd3b14f7f98e5c6b04bad94ad3e2bfc52f305",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/format_generate.log",
+      "destination": "results/bitwidth/q8_14/logs/format_generate.txt",
+      "source_sha256": "ce984a2b655d7e8f2b8df01deeb2110fc26674bd43dc0e4b27a96aa683b6ddfe",
+      "packaged_sha256": "e5888924f6c58adb8f456e3aa66790b24cb514ea7afb21ed2c0262a396488897",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/generate_luts.log",
+      "destination": "results/bitwidth/q8_14/logs/generate_luts.txt",
+      "source_sha256": "1e432229b10d9634cf518f8f38cc8d597edb66cca420d2422d264b4b7723598b",
+      "packaged_sha256": "075f6d649a2e63fa5d8058b74db76dc58efe7e0eaf09c2439f7f17101f2a2336",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/generate_nominal_vectors.log",
+      "destination": "results/bitwidth/q8_14/logs/generate_nominal_vectors.txt",
+      "source_sha256": "55f9f39742b15542bd60236360a9aff241ffd1ac5b6877914c985494c98bf86b",
+      "packaged_sha256": "818d64b821f1f1f41f738a825484191953a376190e976077213838be9949ddbd",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/generate_unit_vectors.log",
+      "destination": "results/bitwidth/q8_14/logs/generate_unit_vectors.txt",
+      "source_sha256": "37ccc66fcdf0a688983e7f47e706d72cd54b5bc4cc9e9a802f55d440b23721e8",
+      "packaged_sha256": "86172dd59a2d2b7ae950a3f7e0626d0931f3ed6ab7be53844b96bf81e28f3149",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/independent_arithmetic.log",
+      "destination": "results/bitwidth/q8_14/logs/independent_arithmetic.txt",
+      "source_sha256": "7da81889526a019e9c6abde8b05f638beca23ea85c3b060f1038eb0d7fef6d50",
+      "packaged_sha256": "83b801879f42e5f9bc62a5274a33ebceef258a58fe3bbaf3c1983c8255ab2df6",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/lint.log",
+      "destination": "results/bitwidth/q8_14/logs/lint.txt",
+      "source_sha256": "09b2f5659f6f891682e691a8f0b10dfdb77f050d390b590a615dd08458aac2e3",
+      "packaged_sha256": "89049e9be8e233baf9ea0f15d84c2416c057b90c47479dec18c2ab488eebb7f2",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/local_report.log",
+      "destination": "results/bitwidth/q8_14/logs/local_report.txt",
+      "source_sha256": "ca8d1a255b61d91bcb6fb0eaafc5ba59400378c614ef72c5f185eca5627d6fff",
+      "packaged_sha256": "cfa1b3eb4c8fb421bbbbfeb260b17d3d86f8a6b34ce5669f272997f22550ad19",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/nominal_models.log",
+      "destination": "results/bitwidth/q8_14/logs/nominal_models.txt",
+      "source_sha256": "046aaeeb01965462e5fb1c78b059715d45004ae861505a87023c426a72af0aae",
+      "packaged_sha256": "08b94038be9265698881bb60510e634df53a18b26a46b698b439837da427725e",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/pipeline_structure.log",
+      "destination": "results/bitwidth/q8_14/logs/pipeline_structure.txt",
+      "source_sha256": "b0425afb964151da4974b3657200af7f22674ddf5f7fa3099dd0ec9f8613ae28",
+      "packaged_sha256": "d3f2e0f097795f59cc147dc36eb7657621f18388bbc45cad333bb41ce08b45a3",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/plots.log",
+      "destination": "results/bitwidth/q8_14/logs/plots.txt",
+      "source_sha256": "bf4558d0db546de985f81e337ccc40eb8072de0f08e3185786ddfbb7cf0d3b40",
+      "packaged_sha256": "325a7370bd8484e521202d198d8083646bca0a5cc38dc3e8a4285715516060cb",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/rbkf_l1_1.log",
+      "destination": "results/bitwidth/q8_14/logs/rbkf_l1_1.txt",
+      "source_sha256": "a4abdfb1be694138f38c41eed80fae10f3cd71735de99428b320d5cfa0a1f420",
+      "packaged_sha256": "a4abdfb1be694138f38c41eed80fae10f3cd71735de99428b320d5cfa0a1f420",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/rbkf_l1_500.log",
+      "destination": "results/bitwidth/q8_14/logs/rbkf_l1_500.txt",
+      "source_sha256": "2b2440b0ef2f776b2944a4858b1dd334fad986f8d52f900186657c7fbf3bd40c",
+      "packaged_sha256": "2b2440b0ef2f776b2944a4858b1dd334fad986f8d52f900186657c7fbf3bd40c",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/rbkf_l8_1.log",
+      "destination": "results/bitwidth/q8_14/logs/rbkf_l8_1.txt",
+      "source_sha256": "629fb0ddfa9b2d9c36ed7cb7c12e5a5d5d1c63562f052016a8baefc862631902",
+      "packaged_sha256": "629fb0ddfa9b2d9c36ed7cb7c12e5a5d5d1c63562f052016a8baefc862631902",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/rbkf_l8_500.log",
+      "destination": "results/bitwidth/q8_14/logs/rbkf_l8_500.txt",
+      "source_sha256": "df7d68dcc6b954416b9160d4caebb9eca60318d9a99f4b6c718ba93b15120865",
+      "packaged_sha256": "df7d68dcc6b954416b9160d4caebb9eca60318d9a99f4b6c718ba93b15120865",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/reference_tests.log",
+      "destination": "results/bitwidth/q8_14/logs/reference_tests.txt",
+      "source_sha256": "c5f79c50b2702a991d93b9266890444b43fd4ebaea8bcce61e11141121ba4815",
+      "packaged_sha256": "c1a906bd53cf309f7e3056dd027d9d34673eee294ba819e618f7c22108e4e990",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/unit_tests.log",
+      "destination": "results/bitwidth/q8_14/logs/unit_tests.txt",
+      "source_sha256": "359bd378ada3a325f6bbc95f004ec829d3cecaf17e90266a8b1fb54864353339",
+      "packaged_sha256": "359bd378ada3a325f6bbc95f004ec829d3cecaf17e90266a8b1fb54864353339",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/logs/validation_failure_checks.log",
+      "destination": "results/bitwidth/q8_14/logs/validation_failure_checks.txt",
+      "source_sha256": "498179e3c9ec599716854e083d2b4cb6ac82987419133328d89faf20571e2206",
+      "packaged_sha256": "a346079254b55f4cb43eb7b9a10fca934fe4bf2ba33c34531f1c229f7ad5229c",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/unit/tb_bkf_covariance_pipeline.log",
+      "destination": "results/bitwidth/q8_14/unit/tb_bkf_covariance_pipeline.txt",
+      "source_sha256": "d088d5d29a04339d0a48d08a46efb3b0d960dd2d76e5bba80495695a0c4a18c6",
+      "packaged_sha256": "d088d5d29a04339d0a48d08a46efb3b0d960dd2d76e5bba80495695a0c4a18c6",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/unit/tb_bkf_handshake.log",
+      "destination": "results/bitwidth/q8_14/unit/tb_bkf_handshake.txt",
+      "source_sha256": "34963535d1221382e248b6e47e05f4f3879743699b66a8f204ca7d242f70c6d0",
+      "packaged_sha256": "34963535d1221382e248b6e47e05f4f3879743699b66a8f204ca7d242f70c6d0",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/unit/tb_ekf_handshake.log",
+      "destination": "results/bitwidth/q8_14/unit/tb_ekf_handshake.txt",
+      "source_sha256": "d136d843476dbd68dc330dbd6ee358f311b0c8bba648576c3f3c092f80029996",
+      "packaged_sha256": "d136d843476dbd68dc330dbd6ee358f311b0c8bba648576c3f3c092f80029996",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/unit/tb_ekf_overflow_pipeline.log",
+      "destination": "results/bitwidth/q8_14/unit/tb_ekf_overflow_pipeline.txt",
+      "source_sha256": "f99f0779bae8e400df5453e1f53ed21163308183560e1498beb469854e1add70",
+      "packaged_sha256": "f99f0779bae8e400df5453e1f53ed21163308183560e1498beb469854e1add70",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/unit/tb_fx_determinant_finalize_pipeline.log",
+      "destination": "results/bitwidth/q8_14/unit/tb_fx_determinant_finalize_pipeline.txt",
+      "source_sha256": "acded9f639275a1ba98c2812e3b26e76b964ce8d3a6477f5518683fdb67f47e5",
+      "packaged_sha256": "acded9f639275a1ba98c2812e3b26e76b964ce8d3a6477f5518683fdb67f47e5",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/unit/tb_fx_divider_q8_16.log",
+      "destination": "results/bitwidth/q8_14/unit/tb_fx_divider_q8_16.txt",
+      "source_sha256": "ee5268bfe844e66811365d150ef8f6e8e8d062425a1c6d539bbd3fb3c07c8c26",
+      "packaged_sha256": "ee5268bfe844e66811365d150ef8f6e8e8d062425a1c6d539bbd3fb3c07c8c26",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/unit/tb_q8_16_arithmetic.log",
+      "destination": "results/bitwidth/q8_14/unit/tb_q8_16_arithmetic.txt",
+      "source_sha256": "161ebcfedbcc38e52c15a66c4b9e58c90b7aac58dd3be5fe39b7dae373d93278",
+      "packaged_sha256": "161ebcfedbcc38e52c15a66c4b9e58c90b7aac58dd3be5fe39b7dae373d93278",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/unit/tb_q8_16_matrix.log",
+      "destination": "results/bitwidth/q8_14/unit/tb_q8_16_matrix.txt",
+      "source_sha256": "7ede6feabea6410374cff0b50299aabf199bd4f6738bb3a9b3cbd1cc87a34cc1",
+      "packaged_sha256": "7ede6feabea6410374cff0b50299aabf199bd4f6738bb3a9b3cbd1cc87a34cc1",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/unit/tb_q8_16_nonlinear_luts.log",
+      "destination": "results/bitwidth/q8_14/unit/tb_q8_16_nonlinear_luts.txt",
+      "source_sha256": "631336a97c49521d4b84b176d396164408388751b723ac1e51da89ee1c12fa4b",
+      "packaged_sha256": "631336a97c49521d4b84b176d396164408388751b723ac1e51da89ee1c12fa4b",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/unit/status.csv",
+      "destination": "results/bitwidth/q8_14/unit/status.csv",
+      "source_sha256": "146d8683e7c76fce6efe2450317c88dff823d1556570f342bb7ab7c7746de40d",
+      "packaged_sha256": "146d8683e7c76fce6efe2450317c88dff823d1556570f342bb7ab7c7746de40d",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/audit/arithmetic_q8_14.json",
+      "destination": "results/bitwidth/q8_14/arithmetic_validation.json",
+      "source_sha256": "7100e78b68b043c4e7b028171caa07d78e41caca72ca4a9f85d48bb95a9609db",
+      "packaged_sha256": "6a43f0dc68dca4455d1599d7fe01d3d4292cee8bbfaddaff5c3c4794071575bc",
+      "transformation": "anonymized host and user/temp path prefixes"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/runs/ekf_1/comparison.json",
+      "destination": "results/bitwidth/q8_14/runs/ekf_1/comparison.json",
+      "source_sha256": "46a0ba6a25d9f07d51df7c935e0a3b507a604706cdfc0acbf92ccfee0904adfd",
+      "packaged_sha256": "46a0ba6a25d9f07d51df7c935e0a3b507a604706cdfc0acbf92ccfee0904adfd",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/runs/ekf_1/cycle_counts_ekf.csv",
+      "destination": "results/bitwidth/q8_14/runs/ekf_1/cycle_counts_ekf.csv",
+      "source_sha256": "f7c6c2858822b4b9981700cd9b6350b523099c83b5a882f4fe646fef98403f72",
+      "packaged_sha256": "f7c6c2858822b4b9981700cd9b6350b523099c83b5a882f4fe646fef98403f72",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/runs/ekf_500/comparison.json",
+      "destination": "results/bitwidth/q8_14/runs/ekf_500/comparison.json",
+      "source_sha256": "bdfac2bc5ce23c08330a3aabbd56ce80ecfde975db4bdabdaace14e2279edef8",
+      "packaged_sha256": "bdfac2bc5ce23c08330a3aabbd56ce80ecfde975db4bdabdaace14e2279edef8",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/runs/ekf_500/cycle_counts_ekf.csv",
+      "destination": "results/bitwidth/q8_14/runs/ekf_500/cycle_counts_ekf.csv",
+      "source_sha256": "748061b93afada033b0b4b484b2ff4bd66c5c354ca3846d7370ee924e9b86fe7",
+      "packaged_sha256": "748061b93afada033b0b4b484b2ff4bd66c5c354ca3846d7370ee924e9b86fe7",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/runs/bkf_l1_1/comparison.json",
+      "destination": "results/bitwidth/q8_14/runs/bkf_l1_1/comparison.json",
+      "source_sha256": "89a88688d4f6595810d24fcc2afb5b1b1b05883c744b0cdc0844ae6cee317a98",
+      "packaged_sha256": "89a88688d4f6595810d24fcc2afb5b1b1b05883c744b0cdc0844ae6cee317a98",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/runs/bkf_l1_1/cycle_counts_bkf_l1.csv",
+      "destination": "results/bitwidth/q8_14/runs/bkf_l1_1/cycle_counts_bkf_l1.csv",
+      "source_sha256": "50b2ff6b7fdc5c51f79ca5ef9a013fde2a30005a924dd85206581abc71c12fe3",
+      "packaged_sha256": "50b2ff6b7fdc5c51f79ca5ef9a013fde2a30005a924dd85206581abc71c12fe3",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/runs/bkf_l1_500/comparison.json",
+      "destination": "results/bitwidth/q8_14/runs/bkf_l1_500/comparison.json",
+      "source_sha256": "a69a9f634702eabea215181c9d84bb2547a1eb8c30c57e6b49ea9545530ab38d",
+      "packaged_sha256": "a69a9f634702eabea215181c9d84bb2547a1eb8c30c57e6b49ea9545530ab38d",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/runs/bkf_l1_500/cycle_counts_bkf_l1.csv",
+      "destination": "results/bitwidth/q8_14/runs/bkf_l1_500/cycle_counts_bkf_l1.csv",
+      "source_sha256": "dedca59dbf37307a0e7cd4b12f0c7456bbfcfcf058dedaf0385cc0a4f0c58046",
+      "packaged_sha256": "dedca59dbf37307a0e7cd4b12f0c7456bbfcfcf058dedaf0385cc0a4f0c58046",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/runs/rbkf_l1_1/comparison.json",
+      "destination": "results/bitwidth/q8_14/runs/rbkf_l1_1/comparison.json",
+      "source_sha256": "9546beedd7b1f4c0baca4ca72bbe6c210f3a210f7c513f82ae46c4110fb9c23c",
+      "packaged_sha256": "9546beedd7b1f4c0baca4ca72bbe6c210f3a210f7c513f82ae46c4110fb9c23c",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/runs/rbkf_l1_1/cycle_counts_rbkf_l1.csv",
+      "destination": "results/bitwidth/q8_14/runs/rbkf_l1_1/cycle_counts_rbkf_l1.csv",
+      "source_sha256": "50b2ff6b7fdc5c51f79ca5ef9a013fde2a30005a924dd85206581abc71c12fe3",
+      "packaged_sha256": "50b2ff6b7fdc5c51f79ca5ef9a013fde2a30005a924dd85206581abc71c12fe3",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/runs/rbkf_l1_500/comparison.json",
+      "destination": "results/bitwidth/q8_14/runs/rbkf_l1_500/comparison.json",
+      "source_sha256": "f7e9ee4ce3ff5eea681b60627200632a7a38602c53cebffc1386682153753279",
+      "packaged_sha256": "f7e9ee4ce3ff5eea681b60627200632a7a38602c53cebffc1386682153753279",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/runs/rbkf_l1_500/cycle_counts_rbkf_l1.csv",
+      "destination": "results/bitwidth/q8_14/runs/rbkf_l1_500/cycle_counts_rbkf_l1.csv",
+      "source_sha256": "dedca59dbf37307a0e7cd4b12f0c7456bbfcfcf058dedaf0385cc0a4f0c58046",
+      "packaged_sha256": "dedca59dbf37307a0e7cd4b12f0c7456bbfcfcf058dedaf0385cc0a4f0c58046",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/runs/rbkf_l8_1/comparison.json",
+      "destination": "results/bitwidth/q8_14/runs/rbkf_l8_1/comparison.json",
+      "source_sha256": "d6e4ac19a35d4a39c4c953d27041a6e91a4739654f1bd7c93786c4e491a7790e",
+      "packaged_sha256": "d6e4ac19a35d4a39c4c953d27041a6e91a4739654f1bd7c93786c4e491a7790e",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/runs/rbkf_l8_1/cycle_counts_rbkf_l8.csv",
+      "destination": "results/bitwidth/q8_14/runs/rbkf_l8_1/cycle_counts_rbkf_l8.csv",
+      "source_sha256": "a6638c58927af6f1082c6a80223cdcafc11a049d0adacc1662d9756509a9f6b2",
+      "packaged_sha256": "a6638c58927af6f1082c6a80223cdcafc11a049d0adacc1662d9756509a9f6b2",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/runs/rbkf_l8_500/comparison.json",
+      "destination": "results/bitwidth/q8_14/runs/rbkf_l8_500/comparison.json",
+      "source_sha256": "1c64e0d15582bde0ce8bb8c3216c50d3fd6b346e050122086bfa55020372cf38",
+      "packaged_sha256": "1c64e0d15582bde0ce8bb8c3216c50d3fd6b346e050122086bfa55020372cf38",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/runs/rbkf_l8_500/cycle_counts_rbkf_l8.csv",
+      "destination": "results/bitwidth/q8_14/runs/rbkf_l8_500/cycle_counts_rbkf_l8.csv",
+      "source_sha256": "db2720c29c51d601d8e7d4ec4fcb46f7d8967033e64900c7a81c4c9331499b33",
+      "packaged_sha256": "db2720c29c51d601d8e7d4ec4fcb46f7d8967033e64900c7a81c4c9331499b33",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/plots/error_norm.png",
+      "destination": "results/bitwidth/q8_14/plots/error_norm.png",
+      "source_sha256": "2afbdbebdfe50501100b527c1e6954975159420f2777cc0b32fa5f4d80b78e9a",
+      "packaged_sha256": "2afbdbebdfe50501100b527c1e6954975159420f2777cc0b32fa5f4d80b78e9a",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/plots/float_fixed_rtl_comparison.png",
+      "destination": "results/bitwidth/q8_14/plots/float_fixed_rtl_comparison.png",
+      "source_sha256": "4dd0b328608af83a0a76d0ba4f1c3bc32f0b13e9640423ebd397fb63b07f8292",
+      "packaged_sha256": "4dd0b328608af83a0a76d0ba4f1c3bc32f0b13e9640423ebd397fb63b07f8292",
+      "transformation": "none"
+    },
+    {
+      "source": "BKF_Verilog/results_bit-width/results_Q8_14/utilization_post_synth.rpt",
+      "destination": "results/vivado/q8_14/bkf_l1/utilization_post_synth.rpt",
+      "source_sha256": "b4555ad24917119519dcbe5eff387b8b63aeaaeead5dbc7e2798ddfe8583da0f",
+      "packaged_sha256": "1e71c43260375faf7564a54c47e7426e22cb34e610a196650e53c7faf18cf8b2",
+      "transformation": "anonymized host and user/temp path prefixes; remove trailing spaces/tabs"
+    },
+    {
+      "source": "BKF_Verilog/results_bit-width/results_Q8_14/utilization_post_route.rpt",
+      "destination": "results/vivado/q8_14/bkf_l1/utilization_post_route.rpt",
+      "source_sha256": "a7dc86a407b59d1367e85a522f6c2c4990728a33c4b39b592b3fc87b337ec8df",
+      "packaged_sha256": "cbd30b81de3b05d0c6888d6d27b2b3b39dd6f71f79d5cbcb483451f93a67d066",
+      "transformation": "anonymized host and user/temp path prefixes; remove trailing spaces/tabs"
+    },
+    {
+      "source": "BKF_Verilog/results_bit-width/results_Q8_14/timing_post_route.rpt",
+      "destination": "results/vivado/q8_14/bkf_l1/timing_post_route.rpt",
+      "source_sha256": "f35d5f7b2108973d3d7c34724f74677cf3adbc7f26d1ff7f03434d4cf154673f",
+      "packaged_sha256": "b36c8c026759fe3102de8dd7983da1c6a2df328e62880fd20fb64946987c732f",
+      "transformation": "anonymized host and user/temp path prefixes; remove trailing spaces/tabs; normalize CRLF to LF"
+    },
+    {
+      "source": "BKF_Verilog/results_bit-width/results_Q8_14/check_timing_post_route.rpt",
+      "destination": "results/vivado/q8_14/bkf_l1/check_timing_post_route.rpt",
+      "source_sha256": "0d027d01b69c0116cb0e76a1fb530b483ef8478beda4c87a43cbe824d7b70fb6",
+      "packaged_sha256": "86adf9223adf9f00f8ae47e99a4bd0aa74b5c574a62743df6a370165d5d5eb07",
+      "transformation": "anonymized host and user/temp path prefixes; remove trailing spaces/tabs; normalize CRLF to LF"
+    },
+    {
+      "source": "BKF_Verilog/results_bit-width/results_Q8_14/drc_post_route.rpt",
+      "destination": "results/vivado/q8_14/bkf_l1/drc_post_route.rpt",
+      "source_sha256": "fe7bdd4b26aae94a5ef8dd1df5343a8dc524399e6b322e5012833f18f6a61d2f",
+      "packaged_sha256": "22a966b334258f410b66a34dd97b7a9e3cf9e17123974a3ccbdd0a907360ba5a",
+      "transformation": "anonymized host and user/temp path prefixes; remove trailing spaces/tabs"
+    },
+    {
+      "source": "BKF_Verilog/results_bit-width/results_Q8_14/power_post_route.rpt",
+      "destination": "results/vivado/q8_14/bkf_l1/power_post_route.rpt",
+      "source_sha256": "f2ca0805f933c5423a15fca4f1cb1fa7edbd888f22fa5abf6ab1c40b450e036a",
+      "packaged_sha256": "264d0764a9c67021128a8aab961e77eb66a030659b41e2559c04ea7bf832a462",
+      "transformation": "anonymized host and user/temp path prefixes; remove trailing spaces/tabs; normalize CRLF to LF"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/format.json",
+      "destination": "results/bitwidth/q8_12/format.json",
+      "source_sha256": "1037cc6de13c1ab6a7cb38e7033c7eef103b93934fe20a6ad0c215a9b7c7ae66",
+      "packaged_sha256": "1037cc6de13c1ab6a7cb38e7033c7eef103b93934fe20a6ad0c215a9b7c7ae66",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/implementation.json",
+      "destination": "results/bitwidth/q8_12/implementation.json",
+      "source_sha256": "67260f2e073cf1d8a038ce30a7da4e5fd8149faed25d8e6352f734a5d3f53019",
+      "packaged_sha256": "67260f2e073cf1d8a038ce30a7da4e5fd8149faed25d8e6352f734a5d3f53019",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/input_checksums.json",
+      "destination": "results/bitwidth/q8_12/input_checksums.json",
+      "source_sha256": "a37905803194b850139e982c9a79054b86ebd9f9154ae4f4a273d8d46b2d7383",
+      "packaged_sha256": "a37905803194b850139e982c9a79054b86ebd9f9154ae4f4a273d8d46b2d7383",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/simulation_metrics.csv",
+      "destination": "results/bitwidth/q8_12/simulation_metrics.csv",
+      "source_sha256": "e9154c54aa2c6571c48b30ced28ff65b90e1381cc9ac02fedc7ab80714552ad2",
+      "packaged_sha256": "f8982e3f5a8725d84db0aa015b3e5e9fe97deaee7241eb3a843f18121255a725",
+      "transformation": "normalize CRLF to LF"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/rtl_comparison.csv",
+      "destination": "results/bitwidth/q8_12/rtl_comparison.csv",
+      "source_sha256": "ba36a1e7254a599b53d0cc22cf036b056d9ac71931aba1736383fb254378adce",
+      "packaged_sha256": "418a7367320f2db434416c76c3b1734c629da9cb731bfaeb2d21c5d668131ec4",
+      "transformation": "normalize CRLF to LF"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/rtl_comparison.json",
+      "destination": "results/bitwidth/q8_12/rtl_comparison.json",
+      "source_sha256": "0f65e24b5e49269f4eaef1b354069a1d0a747ff10f8d92d16300df1d4263f3ad",
+      "packaged_sha256": "0f65e24b5e49269f4eaef1b354069a1d0a747ff10f8d92d16300df1d4263f3ad",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/test_status.json",
+      "destination": "results/bitwidth/q8_12/test_status.json",
+      "source_sha256": "edc8b0b3601fa8debed53ea56bb5f0d3ad0fdd4ded1ad0f1615009fdee4ff6dc",
+      "packaged_sha256": "565ed65019c2289ca6da10b92d0158c15b75b2eb646c79e9d47a5ea514a92e1c",
+      "transformation": "anonymized host and user/temp path prefixes"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/reference_test_status.json",
+      "destination": "results/bitwidth/q8_12/reference_test_status.json",
+      "source_sha256": "8e24732583179ad73f22ac47c80319703ef999f39b7b7882901111dda6fff124",
+      "packaged_sha256": "8e24732583179ad73f22ac47c80319703ef999f39b7b7882901111dda6fff124",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/validation_failure_checks.json",
+      "destination": "results/bitwidth/q8_12/validation_failure_checks.json",
+      "source_sha256": "8b7ea430de9a2edf6255ea1a5c3c540af5eae2c435a587e1c0d8e837a58e9c30",
+      "packaged_sha256": "8b7ea430de9a2edf6255ea1a5c3c540af5eae2c435a587e1c0d8e837a58e9c30",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/python_numerical_diagnostics.json",
+      "destination": "results/bitwidth/q8_12/python_numerical_diagnostics.json",
+      "source_sha256": "cbf57d9b447a9f0821c2607b63a66843b3d480dada9cab1affe9f1574a9ff04f",
+      "packaged_sha256": "cbf57d9b447a9f0821c2607b63a66843b3d480dada9cab1affe9f1574a9ff04f",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/lut_error.json",
+      "destination": "results/bitwidth/q8_12/lut_error.json",
+      "source_sha256": "2d675cb78be949416190cf413544e9ecda45d83f446a1789d10ee1e9ea26024e",
+      "packaged_sha256": "2d675cb78be949416190cf413544e9ecda45d83f446a1789d10ee1e9ea26024e",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/tool_versions.json",
+      "destination": "results/bitwidth/q8_12/tool_versions.json",
+      "source_sha256": "c511837c24a9f2d374beac81c493286fc18892d0a90416caecefc10807388af7",
+      "packaged_sha256": "45953597d7521215d7b6ad5645ff16f4fe73dbc11fc2577d7c1f79b06c9fcc73",
+      "transformation": "anonymized host and user/temp path prefixes"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/final_source_checksums.json",
+      "destination": "results/bitwidth/q8_12/final_source_checksums.json",
+      "source_sha256": "57776f98a3a97c6fdd27c8ca844110899490d36625f75ebd16c8848ad78fe6ef",
+      "packaged_sha256": "57776f98a3a97c6fdd27c8ca844110899490d36625f75ebd16c8848ad78fe6ef",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/bkf_l1_1.log",
+      "destination": "results/bitwidth/q8_12/logs/bkf_l1_1.txt",
+      "source_sha256": "e6dbbfde7df231488e4da2ac449363f879c5864c03d5c7bc371cec9cedff40bb",
+      "packaged_sha256": "e6dbbfde7df231488e4da2ac449363f879c5864c03d5c7bc371cec9cedff40bb",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/bkf_l1_500.log",
+      "destination": "results/bitwidth/q8_12/logs/bkf_l1_500.txt",
+      "source_sha256": "75d9f8d6134ec0bf0d0664743fcea91b9b37bd29e3459180e393dfdc362d8eec",
+      "packaged_sha256": "75d9f8d6134ec0bf0d0664743fcea91b9b37bd29e3459180e393dfdc362d8eec",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/compare_nominal_rtl.log",
+      "destination": "results/bitwidth/q8_12/logs/compare_nominal_rtl.txt",
+      "source_sha256": "c45eb1662858ad06bebd2392d61d1312410bac8f922e0bea072b0f4e058cea60",
+      "packaged_sha256": "5dab1429aa4d2af01ed4b2909fd205312353a6866dfac191386626963b4259e2",
+      "transformation": "anonymized host and user/temp path prefixes; remove trailing spaces/tabs; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/ekf_1.log",
+      "destination": "results/bitwidth/q8_12/logs/ekf_1.txt",
+      "source_sha256": "17656980539d739301ffb1f9c4b26b794d2d8121c83ea708e875b396f60f2db3",
+      "packaged_sha256": "17656980539d739301ffb1f9c4b26b794d2d8121c83ea708e875b396f60f2db3",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/ekf_500.log",
+      "destination": "results/bitwidth/q8_12/logs/ekf_500.txt",
+      "source_sha256": "8c21bc46a261cf6166d593830ccb0806fd23829582e7515b2e4e8bc4e058e833",
+      "packaged_sha256": "8c21bc46a261cf6166d593830ccb0806fd23829582e7515b2e4e8bc4e058e833",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/format_generate.log",
+      "destination": "results/bitwidth/q8_12/logs/format_generate.txt",
+      "source_sha256": "eb17495af81e68a2a924242f63c580191beabf4af3e7a35e0dcdb2037afd944f",
+      "packaged_sha256": "f7aa52f4b08370a2571f796479cf9d11bb7940e83275e58b8bfd1026e41b64ba",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/generate_luts.log",
+      "destination": "results/bitwidth/q8_12/logs/generate_luts.txt",
+      "source_sha256": "2adbdac49fd7e5a7c902220679b63120d7c84effe72cd83f5e93b4dbad264409",
+      "packaged_sha256": "e3097169ab598d1d6b29dfa82cfada63da55760ce6b6de0ba199ffa5ebe76c1b",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/generate_nominal_vectors.log",
+      "destination": "results/bitwidth/q8_12/logs/generate_nominal_vectors.txt",
+      "source_sha256": "7dd6f01dc6c635be1dd8a857e78d683db03a26a290a937780929b17205f5a1b9",
+      "packaged_sha256": "e34630baa0b70db1337356b98a56d6e569643e236406e54a156cd0c0ccf7ea89",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/generate_unit_vectors.log",
+      "destination": "results/bitwidth/q8_12/logs/generate_unit_vectors.txt",
+      "source_sha256": "28d79e4fba3b932861c81b87f2fbb6ce381d52dddc3d0ece9d86cbcae61c7f49",
+      "packaged_sha256": "53f68004a0d59b32a0eb8c53f219d8eb65b9b08277ede0a8090bd0c80f7378df",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/independent_arithmetic.log",
+      "destination": "results/bitwidth/q8_12/logs/independent_arithmetic.txt",
+      "source_sha256": "a4ff27c52c080208dec314fbb404b9fdce943e6814199ac93e673b94e480d008",
+      "packaged_sha256": "8c578d931d0a84dbc42c0c8cdc8285c8aca3f346681dcc85faea5c810855fd48",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/lint.log",
+      "destination": "results/bitwidth/q8_12/logs/lint.txt",
+      "source_sha256": "65cc97b7e6f75387a5e584aada1c2a5641fc4640f8242a5e5d5ac6a8f14758bb",
+      "packaged_sha256": "07596ca6b0bc9ada1fc3634d36878236d4decd216707170beb04704b1978df62",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/local_report.log",
+      "destination": "results/bitwidth/q8_12/logs/local_report.txt",
+      "source_sha256": "9d840b763c5bedf3d0e6079ffac59938c0fedb70e5ca1cffcb14c4815ad4ff40",
+      "packaged_sha256": "6c47fc2889f1ed23b5813f69704540df98a36f1dfcb5b6796fea7e7e3eb0426f",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/nominal_models.log",
+      "destination": "results/bitwidth/q8_12/logs/nominal_models.txt",
+      "source_sha256": "2495bf4de5137c85e066990e773c7378451195006a8eb085e2559ce5eebc3673",
+      "packaged_sha256": "38cdb5f849efe3bc51b6ef4a4715119d3499a7bd226638e2ac548f3b847999b7",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/pipeline_structure.log",
+      "destination": "results/bitwidth/q8_12/logs/pipeline_structure.txt",
+      "source_sha256": "69bd141ca82d5057c778a196cb09c5893b7d0bb8aa39032c2e91158eefd15417",
+      "packaged_sha256": "0aee6cec432bb685e783619586743b7077a1a61c461d73283059cf113b3ff707",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/plots.log",
+      "destination": "results/bitwidth/q8_12/logs/plots.txt",
+      "source_sha256": "0f058b74502dfc47df4198d161a4153a7841ef4a8d9a034f1d88d5091659b083",
+      "packaged_sha256": "cf3c93035fdbb385bc272969bd4edff9d1e38115b1e2b8c75baf15c4cdeeecce",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/rbkf_l1_1.log",
+      "destination": "results/bitwidth/q8_12/logs/rbkf_l1_1.txt",
+      "source_sha256": "016f86b54914bf1f81d105402bf2caf431de9bf04c5bc982f5c14588a5c5e151",
+      "packaged_sha256": "016f86b54914bf1f81d105402bf2caf431de9bf04c5bc982f5c14588a5c5e151",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/rbkf_l1_500.log",
+      "destination": "results/bitwidth/q8_12/logs/rbkf_l1_500.txt",
+      "source_sha256": "6d565cf5da7c2ef9991638f79fed65c09031bb6bd1539dd2c808a4018dc0b446",
+      "packaged_sha256": "6d565cf5da7c2ef9991638f79fed65c09031bb6bd1539dd2c808a4018dc0b446",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/rbkf_l8_1.log",
+      "destination": "results/bitwidth/q8_12/logs/rbkf_l8_1.txt",
+      "source_sha256": "8d2af0d31583049c6fbe5ce0b7893de7269ed0618541bc4879161297184846a6",
+      "packaged_sha256": "8d2af0d31583049c6fbe5ce0b7893de7269ed0618541bc4879161297184846a6",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/rbkf_l8_500.log",
+      "destination": "results/bitwidth/q8_12/logs/rbkf_l8_500.txt",
+      "source_sha256": "e6d8dff566d7bdd5f72a6118535b001da937346ed104b5ba4031804f431d5da3",
+      "packaged_sha256": "e6d8dff566d7bdd5f72a6118535b001da937346ed104b5ba4031804f431d5da3",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/reference_tests.log",
+      "destination": "results/bitwidth/q8_12/logs/reference_tests.txt",
+      "source_sha256": "3c6dd67ccab583c9ab7f3b5242e346c4137ccf027dedd037aa6408511953af41",
+      "packaged_sha256": "331358f7b24e1132bdd12191b894137fd6abd88045d4f132554ba7cabae5265f",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/unit_tests.log",
+      "destination": "results/bitwidth/q8_12/logs/unit_tests.txt",
+      "source_sha256": "b455cf1e31e2f77bb43b04dcb33b11fdf9fa634e738dbb1e46c1f04a0c9944eb",
+      "packaged_sha256": "b455cf1e31e2f77bb43b04dcb33b11fdf9fa634e738dbb1e46c1f04a0c9944eb",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/logs/validation_failure_checks.log",
+      "destination": "results/bitwidth/q8_12/logs/validation_failure_checks.txt",
+      "source_sha256": "2af423a1105691a97dee6c7b1ae363ea5520d03cdf0ccd84ae4e517ef9c4a10a",
+      "packaged_sha256": "636071d9fc9c1344336fad7285fd2c9299465188994231e6a5fa5fc6d9daf92b",
+      "transformation": "anonymized host and user/temp path prefixes; rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/unit/tb_bkf_covariance_pipeline.log",
+      "destination": "results/bitwidth/q8_12/unit/tb_bkf_covariance_pipeline.txt",
+      "source_sha256": "d088d5d29a04339d0a48d08a46efb3b0d960dd2d76e5bba80495695a0c4a18c6",
+      "packaged_sha256": "d088d5d29a04339d0a48d08a46efb3b0d960dd2d76e5bba80495695a0c4a18c6",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/unit/tb_bkf_handshake.log",
+      "destination": "results/bitwidth/q8_12/unit/tb_bkf_handshake.txt",
+      "source_sha256": "5e9cdafd470aafb0db32d20d8ddc10624bf6d9a90e37c90c7095f75226e38f86",
+      "packaged_sha256": "5e9cdafd470aafb0db32d20d8ddc10624bf6d9a90e37c90c7095f75226e38f86",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/unit/tb_ekf_handshake.log",
+      "destination": "results/bitwidth/q8_12/unit/tb_ekf_handshake.txt",
+      "source_sha256": "b61eded1edcd8052e37899061d98cf525a98b9a6e8f3dbccb85c8a8286a7c37e",
+      "packaged_sha256": "b61eded1edcd8052e37899061d98cf525a98b9a6e8f3dbccb85c8a8286a7c37e",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/unit/tb_ekf_overflow_pipeline.log",
+      "destination": "results/bitwidth/q8_12/unit/tb_ekf_overflow_pipeline.txt",
+      "source_sha256": "f99f0779bae8e400df5453e1f53ed21163308183560e1498beb469854e1add70",
+      "packaged_sha256": "f99f0779bae8e400df5453e1f53ed21163308183560e1498beb469854e1add70",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/unit/tb_fx_determinant_finalize_pipeline.log",
+      "destination": "results/bitwidth/q8_12/unit/tb_fx_determinant_finalize_pipeline.txt",
+      "source_sha256": "acded9f639275a1ba98c2812e3b26e76b964ce8d3a6477f5518683fdb67f47e5",
+      "packaged_sha256": "acded9f639275a1ba98c2812e3b26e76b964ce8d3a6477f5518683fdb67f47e5",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/unit/tb_fx_divider_q8_16.log",
+      "destination": "results/bitwidth/q8_12/unit/tb_fx_divider_q8_16.txt",
+      "source_sha256": "e5fc1d81fcf99f3d8d621036137b3fedc1de771d42f3bd4c252128707e058edd",
+      "packaged_sha256": "e5fc1d81fcf99f3d8d621036137b3fedc1de771d42f3bd4c252128707e058edd",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/unit/tb_q8_16_arithmetic.log",
+      "destination": "results/bitwidth/q8_12/unit/tb_q8_16_arithmetic.txt",
+      "source_sha256": "161ebcfedbcc38e52c15a66c4b9e58c90b7aac58dd3be5fe39b7dae373d93278",
+      "packaged_sha256": "161ebcfedbcc38e52c15a66c4b9e58c90b7aac58dd3be5fe39b7dae373d93278",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/unit/tb_q8_16_matrix.log",
+      "destination": "results/bitwidth/q8_12/unit/tb_q8_16_matrix.txt",
+      "source_sha256": "fc2ebfd0c2c33c47f4ba3ee48eb5f75521d5080af8bf2e77f6f71245c994ee3b",
+      "packaged_sha256": "fc2ebfd0c2c33c47f4ba3ee48eb5f75521d5080af8bf2e77f6f71245c994ee3b",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/unit/tb_q8_16_nonlinear_luts.log",
+      "destination": "results/bitwidth/q8_12/unit/tb_q8_16_nonlinear_luts.txt",
+      "source_sha256": "631336a97c49521d4b84b176d396164408388751b723ac1e51da89ee1c12fa4b",
+      "packaged_sha256": "631336a97c49521d4b84b176d396164408388751b723ac1e51da89ee1c12fa4b",
+      "transformation": "rename curated log extension to .txt for Git tracking"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/unit/status.csv",
+      "destination": "results/bitwidth/q8_12/unit/status.csv",
+      "source_sha256": "146d8683e7c76fce6efe2450317c88dff823d1556570f342bb7ab7c7746de40d",
+      "packaged_sha256": "146d8683e7c76fce6efe2450317c88dff823d1556570f342bb7ab7c7746de40d",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/audit/arithmetic_q8_12.json",
+      "destination": "results/bitwidth/q8_12/arithmetic_validation.json",
+      "source_sha256": "61f8dbae10472ffbb54badcddd20438babd1f6d031fcb19c4b038730520b24db",
+      "packaged_sha256": "11103718068260a20880c7a95d25342168172e584f1467d3b362dc4a3806811a",
+      "transformation": "anonymized host and user/temp path prefixes"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/runs/ekf_1/comparison.json",
+      "destination": "results/bitwidth/q8_12/runs/ekf_1/comparison.json",
+      "source_sha256": "69a6797edab630b0a8dc6c1e5e9f008d9ccd54f43ecc6e6b840724fc0ef7775a",
+      "packaged_sha256": "69a6797edab630b0a8dc6c1e5e9f008d9ccd54f43ecc6e6b840724fc0ef7775a",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/runs/ekf_1/cycle_counts_ekf.csv",
+      "destination": "results/bitwidth/q8_12/runs/ekf_1/cycle_counts_ekf.csv",
+      "source_sha256": "eb4677e9901b5ac2e421b3b56fa5a482221ddfde18d7a9c6983158d478d63b28",
+      "packaged_sha256": "eb4677e9901b5ac2e421b3b56fa5a482221ddfde18d7a9c6983158d478d63b28",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/runs/ekf_500/comparison.json",
+      "destination": "results/bitwidth/q8_12/runs/ekf_500/comparison.json",
+      "source_sha256": "1c5dce115e8ca0b88829163fb7d1e4024601c52692a31a63b09bb59727a89fe1",
+      "packaged_sha256": "1c5dce115e8ca0b88829163fb7d1e4024601c52692a31a63b09bb59727a89fe1",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/runs/ekf_500/cycle_counts_ekf.csv",
+      "destination": "results/bitwidth/q8_12/runs/ekf_500/cycle_counts_ekf.csv",
+      "source_sha256": "dc5d3a94329e3d0c6b51ce13e33fec0c0b94c2ef896d784453f29f0ff207d50a",
+      "packaged_sha256": "dc5d3a94329e3d0c6b51ce13e33fec0c0b94c2ef896d784453f29f0ff207d50a",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/runs/bkf_l1_1/comparison.json",
+      "destination": "results/bitwidth/q8_12/runs/bkf_l1_1/comparison.json",
+      "source_sha256": "6d635dd19c55e0e4e66c4addfc15d7ff5dcfd85454d5bd9347404d19fe16b9c1",
+      "packaged_sha256": "6d635dd19c55e0e4e66c4addfc15d7ff5dcfd85454d5bd9347404d19fe16b9c1",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/runs/bkf_l1_1/cycle_counts_bkf_l1.csv",
+      "destination": "results/bitwidth/q8_12/runs/bkf_l1_1/cycle_counts_bkf_l1.csv",
+      "source_sha256": "2b5376c794e0777a4708385163b1f7f9a0e42aff505586445ac655ec9441ca26",
+      "packaged_sha256": "2b5376c794e0777a4708385163b1f7f9a0e42aff505586445ac655ec9441ca26",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/runs/bkf_l1_500/comparison.json",
+      "destination": "results/bitwidth/q8_12/runs/bkf_l1_500/comparison.json",
+      "source_sha256": "12c16560a5e71129a4e6324b8dee3a6f800778177f842ed04b1bed7f8de7dd75",
+      "packaged_sha256": "12c16560a5e71129a4e6324b8dee3a6f800778177f842ed04b1bed7f8de7dd75",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/runs/bkf_l1_500/cycle_counts_bkf_l1.csv",
+      "destination": "results/bitwidth/q8_12/runs/bkf_l1_500/cycle_counts_bkf_l1.csv",
+      "source_sha256": "d1d4e19bdcc5e920cfee5974dbc502a0da7af30018522e9541fdebe1739d5d3f",
+      "packaged_sha256": "d1d4e19bdcc5e920cfee5974dbc502a0da7af30018522e9541fdebe1739d5d3f",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/runs/rbkf_l1_1/comparison.json",
+      "destination": "results/bitwidth/q8_12/runs/rbkf_l1_1/comparison.json",
+      "source_sha256": "438c7f2e6da905a1ec94836d11a6b47cf54c6be15ba5e73af52b8f46312a31d4",
+      "packaged_sha256": "438c7f2e6da905a1ec94836d11a6b47cf54c6be15ba5e73af52b8f46312a31d4",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/runs/rbkf_l1_1/cycle_counts_rbkf_l1.csv",
+      "destination": "results/bitwidth/q8_12/runs/rbkf_l1_1/cycle_counts_rbkf_l1.csv",
+      "source_sha256": "2b5376c794e0777a4708385163b1f7f9a0e42aff505586445ac655ec9441ca26",
+      "packaged_sha256": "2b5376c794e0777a4708385163b1f7f9a0e42aff505586445ac655ec9441ca26",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/runs/rbkf_l1_500/comparison.json",
+      "destination": "results/bitwidth/q8_12/runs/rbkf_l1_500/comparison.json",
+      "source_sha256": "85528d80cb56b3cc37eb5555492b51c991d0717c965312bcbcf1978386d8daeb",
+      "packaged_sha256": "85528d80cb56b3cc37eb5555492b51c991d0717c965312bcbcf1978386d8daeb",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/runs/rbkf_l1_500/cycle_counts_rbkf_l1.csv",
+      "destination": "results/bitwidth/q8_12/runs/rbkf_l1_500/cycle_counts_rbkf_l1.csv",
+      "source_sha256": "d1d4e19bdcc5e920cfee5974dbc502a0da7af30018522e9541fdebe1739d5d3f",
+      "packaged_sha256": "d1d4e19bdcc5e920cfee5974dbc502a0da7af30018522e9541fdebe1739d5d3f",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/runs/rbkf_l8_1/comparison.json",
+      "destination": "results/bitwidth/q8_12/runs/rbkf_l8_1/comparison.json",
+      "source_sha256": "6d7018d743390e82b35e2eae71e88f0aa080c4f7d6a17c0cb6c98b11a02b200c",
+      "packaged_sha256": "6d7018d743390e82b35e2eae71e88f0aa080c4f7d6a17c0cb6c98b11a02b200c",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/runs/rbkf_l8_1/cycle_counts_rbkf_l8.csv",
+      "destination": "results/bitwidth/q8_12/runs/rbkf_l8_1/cycle_counts_rbkf_l8.csv",
+      "source_sha256": "50b2ff6b7fdc5c51f79ca5ef9a013fde2a30005a924dd85206581abc71c12fe3",
+      "packaged_sha256": "50b2ff6b7fdc5c51f79ca5ef9a013fde2a30005a924dd85206581abc71c12fe3",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/runs/rbkf_l8_500/comparison.json",
+      "destination": "results/bitwidth/q8_12/runs/rbkf_l8_500/comparison.json",
+      "source_sha256": "b7e92542bd4fae777441c952231cb4e899556f1ff33875c34b077637607695d8",
+      "packaged_sha256": "b7e92542bd4fae777441c952231cb4e899556f1ff33875c34b077637607695d8",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/bitwidth/runs/rbkf_l8_500/cycle_counts_rbkf_l8.csv",
+      "destination": "results/bitwidth/q8_12/runs/rbkf_l8_500/cycle_counts_rbkf_l8.csv",
+      "source_sha256": "dedca59dbf37307a0e7cd4b12f0c7456bbfcfcf058dedaf0385cc0a4f0c58046",
+      "packaged_sha256": "dedca59dbf37307a0e7cd4b12f0c7456bbfcfcf058dedaf0385cc0a4f0c58046",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/plots/error_norm.png",
+      "destination": "results/bitwidth/q8_12/plots/error_norm.png",
+      "source_sha256": "e43caebd953d599594ca97094d6c1826a67cc0dcd4a057dc18bedd2a31cf76fc",
+      "packaged_sha256": "e43caebd953d599594ca97094d6c1826a67cc0dcd4a057dc18bedd2a31cf76fc",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_12/results/plots/float_fixed_rtl_comparison.png",
+      "destination": "results/bitwidth/q8_12/plots/float_fixed_rtl_comparison.png",
+      "source_sha256": "f539e25e725747348981aa41a8ad41819b28a3bd204f1c102535a278716dfdb9",
+      "packaged_sha256": "f539e25e725747348981aa41a8ad41819b28a3bd204f1c102535a278716dfdb9",
+      "transformation": "none"
+    },
+    {
+      "source": "BKF_Verilog/results_bit-width/results_Q8_12/utilization_post_synth.rpt",
+      "destination": "results/vivado/q8_12/bkf_l1/utilization_post_synth.rpt",
+      "source_sha256": "e5380ca58b0508ea91c8cc6cf66c8eb03f88b22566e8517f424011fec7e7cd7c",
+      "packaged_sha256": "2001858bdc807a4e702afeb95800f61469d966ba24b8de0ba86ca459cff3bc6f",
+      "transformation": "anonymized host and user/temp path prefixes; remove trailing spaces/tabs"
+    },
+    {
+      "source": "BKF_Verilog/results_bit-width/results_Q8_12/utilization_post_route.rpt",
+      "destination": "results/vivado/q8_12/bkf_l1/utilization_post_route.rpt",
+      "source_sha256": "cdb08a2a41939cedd3419113bc9aa57caefc9fd0de56a97535b181323f8048bb",
+      "packaged_sha256": "e43774384639dd03b393f16312cf3f56b5a510b2ed98314b0eece6d9877f9d93",
+      "transformation": "anonymized host and user/temp path prefixes; remove trailing spaces/tabs"
+    },
+    {
+      "source": "BKF_Verilog/results_bit-width/results_Q8_12/timing_post_route.rpt",
+      "destination": "results/vivado/q8_12/bkf_l1/timing_post_route.rpt",
+      "source_sha256": "92d1c4d74da9ec1f9ee637dd366c894180885a26bbbe79555b1e80508dd31609",
+      "packaged_sha256": "badfebed009a83d3c027106332ff25a31380be55b14fa55a0554e7b96801f6a0",
+      "transformation": "anonymized host and user/temp path prefixes; remove trailing spaces/tabs; normalize CRLF to LF"
+    },
+    {
+      "source": "BKF_Verilog/results_bit-width/results_Q8_12/check_timing_post_route.rpt",
+      "destination": "results/vivado/q8_12/bkf_l1/check_timing_post_route.rpt",
+      "source_sha256": "8dff12b494f8638de87b45e2da707d0c53553e29c3012105585a248dfa1f2fd7",
+      "packaged_sha256": "c16c5b402555d286fdfabbfd6e75d874483e11940e7372741561b490950c7c9d",
+      "transformation": "anonymized host and user/temp path prefixes; remove trailing spaces/tabs; normalize CRLF to LF"
+    },
+    {
+      "source": "BKF_Verilog/results_bit-width/results_Q8_12/drc_post_route.rpt",
+      "destination": "results/vivado/q8_12/bkf_l1/drc_post_route.rpt",
+      "source_sha256": "68ec70a7cb40a5f2ae8cb2a5a35d8fb23094828fc4d9868f18e09b294c6f5e7c",
+      "packaged_sha256": "ea7f43c55360371e5309897add42ad908989d86e96b0c5fb00488b0a795123be",
+      "transformation": "anonymized host and user/temp path prefixes; remove trailing spaces/tabs"
+    },
+    {
+      "source": "BKF_Verilog/results_bit-width/results_Q8_12/power_post_route.rpt",
+      "destination": "results/vivado/q8_12/bkf_l1/power_post_route.rpt",
+      "source_sha256": "7bd182cfd99414a62ef437cd2ea24520977ed7d4f6c3cabc3c61abc5e4812e45",
+      "packaged_sha256": "1bbda1edba26a5f2f4e139656eb67078cb8a0df61fd4bd0995ce03053ea561de",
+      "transformation": "anonymized host and user/temp path prefixes; remove trailing spaces/tabs; normalize CRLF to LF"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/baseline_q8_16/format.json",
+      "destination": "results/bitwidth/q8_16/format.json",
+      "source_sha256": "c71ba3921582dba314b13bb591c911944dd55d56b258303b39e7204884506849",
+      "packaged_sha256": "c71ba3921582dba314b13bb591c911944dd55d56b258303b39e7204884506849",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/baseline_q8_16/implementation.json",
+      "destination": "results/bitwidth/q8_16/implementation.json",
+      "source_sha256": "dfe623bd366d5d8bf7bc60cd91f5314175ba7526c99543f7fb4f672ef91aebc2",
+      "packaged_sha256": "dfe623bd366d5d8bf7bc60cd91f5314175ba7526c99543f7fb4f672ef91aebc2",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/baseline_q8_16/cycle_counts_ekf.csv",
+      "destination": "results/bitwidth/q8_16/cycle_counts_ekf.csv",
+      "source_sha256": "520edfdf848fcacfefaa91e1131fef4c9e862ddf4b10548a624a48a62e0835fb",
+      "packaged_sha256": "520edfdf848fcacfefaa91e1131fef4c9e862ddf4b10548a624a48a62e0835fb",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/baseline_q8_16/cycle_counts_bkf_l1.csv",
+      "destination": "results/bitwidth/q8_16/cycle_counts_bkf_l1.csv",
+      "source_sha256": "db2720c29c51d601d8e7d4ec4fcb46f7d8967033e64900c7a81c4c9331499b33",
+      "packaged_sha256": "db2720c29c51d601d8e7d4ec4fcb46f7d8967033e64900c7a81c4c9331499b33",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/baseline_q8_16/cycle_counts_rbkf_l1.csv",
+      "destination": "results/bitwidth/q8_16/cycle_counts_rbkf_l1.csv",
+      "source_sha256": "db2720c29c51d601d8e7d4ec4fcb46f7d8967033e64900c7a81c4c9331499b33",
+      "packaged_sha256": "db2720c29c51d601d8e7d4ec4fcb46f7d8967033e64900c7a81c4c9331499b33",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/baseline_q8_16/cycle_counts_rbkf_l8.csv",
+      "destination": "results/bitwidth/q8_16/cycle_counts_rbkf_l8.csv",
+      "source_sha256": "5055c647d2719a94a649691c98ae06513141ff63f7498ea1b12ec6cce6c3519b",
+      "packaged_sha256": "5055c647d2719a94a649691c98ae06513141ff63f7498ea1b12ec6cce6c3519b",
+      "transformation": "none"
+    },
+    {
+      "source": "Project/BKF_RTL_Q8_14/results/bitwidth/q8_16_generalization_regression.json",
+      "destination": "results/bitwidth/q8_16_generalization_summary.json",
+      "source_sha256": "3e68638dc4477d64db191e4139337397254da4c277c2eca879e0b949f3ddd94d",
+      "packaged_sha256": "e09bde36f337855ba5b0a8bf099fa14b9e3d2813f6dfafc063b038e71b8ecc70",
+      "transformation": "compact projection: overall status/counts and per-algorithm 1/500-step RTL/cycle comparison; excludes reproduced source trees and per-array/vector hashes"
+    }
+  ]
+}

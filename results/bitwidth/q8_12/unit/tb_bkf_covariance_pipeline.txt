@@ -1,0 +1,2 @@
+PASS: bkf covariance pipeline directed=5 reset_flush=1 mismatch=0 threshold_latency=285
+tb/unit/tb_bkf_covariance_pipeline.sv:488: $finish called at 21640000 (1ps)

@@ -1,0 +1,2 @@
+command: ["<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_12/.venv/bin/python", "python/nominal_config.py", "--generate"]
+PASS: YAML/Python/RTL format contract signed Q8.12, W=20, F=12

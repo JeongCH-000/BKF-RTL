@@ -1,0 +1,24 @@
+{
+  "iverilog": "Icarus Verilog version 13.0 (stable) (v13_0)",
+  "packages": [
+    "contourpy==1.3.3",
+    "cycler==0.12.1",
+    "fonttools==4.65.0",
+    "kiwisolver==1.5.1",
+    "matplotlib==3.11.1",
+    "numpy==2.5.1",
+    "packaging==26.3",
+    "pillow==12.3.0",
+    "pyparsing==3.3.2",
+    "python-dateutil==2.9.0.post0",
+    "PyYAML==6.0.3",
+    "six==1.17.0"
+  ],
+  "python": "3.12.6 (v3.12.6:a4a2d2b0d85, Sep  6 2024, 16:08:03) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "python_executable": "<USER_HOME>/Desktop/Digital/Project/BKF_RTL_Q8_12/.venv/bin/python",
+  "vivado": "NOT_RUN",
+  "vvp": "Icarus Verilog runtime version 13.0 (stable) (v13_0)",
+  "system_python3": "Python 3.13.3",
+  "bash": "GNU bash, version 3.2.57(1)-release (arm64-apple-darwin24)",
+  "make": "GNU Make 3.81"
+}

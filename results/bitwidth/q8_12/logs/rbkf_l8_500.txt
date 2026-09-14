@@ -1,0 +1,4 @@
+command: ["bash", "scripts/run_algorithm_test.sh", "rbkf_l8", "500"]
+PASS: 500/500 rBKF L=8 steps matched bit-exactly
+tb/integration/tb_rbkf_full.sv:453: $finish called at 6355080000 (1ps)
+PASS: rbkf_l8 complete, ordered, known-valued CSV rows=500

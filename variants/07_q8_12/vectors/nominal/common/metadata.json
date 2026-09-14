@@ -1,0 +1,290 @@
+{
+  "branch_order": "branch-major: flattened index = branch*3 + feature",
+  "files": {
+    "bkf_l1/branch_observation_bits.mem": {
+      "element_width": 1,
+      "elements_per_record": 3,
+      "records": 500,
+      "sha256": "6e189282a8698959e754126c01a0c54212dfd3f7be1bacf2eb21d348763b9533"
+    },
+    "bkf_l1/expected_cov.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 500,
+      "sha256": "cf4853f91c09c05636b3e355c022c531bd5882e28b6393843d6c70bf50bcb812"
+    },
+    "bkf_l1/expected_cov_predict.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 500,
+      "sha256": "18fc54b9e2116368219b4697e17be5c169ba5a654fca925dafe951aa41af15ed"
+    },
+    "bkf_l1/expected_determinant.mem": {
+      "element_width": 20,
+      "elements_per_record": 1,
+      "records": 500,
+      "sha256": "ee7dd5b9ca4b2251338dd3ccf3612170f9f953ffddcd56aef45b1e6c4c1736c1"
+    },
+    "bkf_l1/expected_gain.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 500,
+      "sha256": "12acf15a76d6dfdf1c264f945d2a95e27de31910ac7642102853244e3d48e106"
+    },
+    "bkf_l1/expected_reduced_cov.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 500,
+      "sha256": "a70166e2545f45a2dd121f7b4ca7b7906a4952b1521f1724debde01b18b21e9b"
+    },
+    "bkf_l1/expected_reduced_observation.mem": {
+      "element_width": 20,
+      "elements_per_record": 3,
+      "records": 500,
+      "sha256": "83e47cc302be5b2b5a4ecc2c33f4b2cdaa6078fe3291380fcedf330de78180f7"
+    },
+    "bkf_l1/expected_state.mem": {
+      "element_width": 20,
+      "elements_per_record": 3,
+      "records": 500,
+      "sha256": "556354e47d8412416cbb2bce134a2dcbc9293416f063a63e97373c8e8ee43ab4"
+    },
+    "bkf_l1/expected_threshold.mem": {
+      "element_width": 20,
+      "elements_per_record": 3,
+      "records": 500,
+      "sha256": "bc6b181b5e51b9efa5216bb291cdb92d7c010a4bf742921cc57b81ddde33b82f"
+    },
+    "bkf_l1/f_matrix.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 500,
+      "sha256": "59cde3c67fe80ea9cc150e8a279a14a6bea9c2553c722e24ca6bb9dce1572b32"
+    },
+    "bkf_l1/measurement.mem": {
+      "element_width": 20,
+      "elements_per_record": 3,
+      "records": 500,
+      "sha256": "55b6fc3553292f1f61ca9682f1067f671b58465a5cc12d3477df877bf8a6d13e"
+    },
+    "common/ground_truth.mem": {
+      "element_width": 20,
+      "elements_per_record": 3,
+      "records": 500,
+      "sha256": "606f0e896e0d0fc793017636c568e03819d13ba59d2ba3ebe026d524b2a5343c"
+    },
+    "common/init_cov.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 1,
+      "sha256": "bff29ab20c3be16a041a225c38c12f59ffe9eb7c1f0656d18f27763bb873a897"
+    },
+    "common/init_state.mem": {
+      "element_width": 20,
+      "elements_per_record": 3,
+      "records": 1,
+      "sha256": "f2f7792986dc9fc0d3b1f182ca7ac3394f2ba626d32a8098eb3b277b1229ce17"
+    },
+    "common/process_noise.mem": {
+      "element_width": 20,
+      "elements_per_record": 3,
+      "records": 500,
+      "sha256": "4489697f4263df56f10b9ee799bbb2296fa44c32697f94790ba700e8bd76fab6"
+    },
+    "ekf/expected_cov.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 500,
+      "sha256": "93dd4d8560bb2d708ff867d997b4d0bfc2d77f3720b26c88ffa2aefc2c6bdd1c"
+    },
+    "ekf/expected_cov_inner.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 500,
+      "sha256": "110381391259613c8bb705f620ca4715d29ed736b5fd46729ce559bdcf7d01e3"
+    },
+    "ekf/expected_cov_predict.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 500,
+      "sha256": "3b5f5d8059c5bb83af9f9fcb415a7884d887208f55d0f19eb9841087969a5d87"
+    },
+    "ekf/expected_determinant.mem": {
+      "element_width": 20,
+      "elements_per_record": 1,
+      "records": 500,
+      "sha256": "2460bd12aa62d587bab7f0e76c31c07b97d6dd3935baf99aee886dd2a327f892"
+    },
+    "ekf/expected_gain.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 500,
+      "sha256": "1ceffd2e32d7811adf821fafa2ce03eed3ea1b5a04551528eae8cf745cf30ef1"
+    },
+    "ekf/expected_innovation_cov.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 500,
+      "sha256": "ee0ef5c15cce9494e277bc21e3d58f0da78b3560bbe90e9cd6596ac956a16df4"
+    },
+    "ekf/expected_state.mem": {
+      "element_width": 20,
+      "elements_per_record": 3,
+      "records": 500,
+      "sha256": "436b1813bd8b0776fa66917b5712bad1cbaeb8cebb021df2f93a1d4696aaeb63"
+    },
+    "ekf/f_matrix.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 500,
+      "sha256": "83598205e2219cda01595925cadb6396f88499d28eeb6163cc52dd9ff3db3c45"
+    },
+    "ekf/measurement.mem": {
+      "element_width": 20,
+      "elements_per_record": 3,
+      "records": 500,
+      "sha256": "55b6fc3553292f1f61ca9682f1067f671b58465a5cc12d3477df877bf8a6d13e"
+    },
+    "rbkf_l1/branch_observation_bits.mem": {
+      "element_width": 1,
+      "elements_per_record": 3,
+      "records": 500,
+      "sha256": "6e189282a8698959e754126c01a0c54212dfd3f7be1bacf2eb21d348763b9533"
+    },
+    "rbkf_l1/expected_cov.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 500,
+      "sha256": "cf4853f91c09c05636b3e355c022c531bd5882e28b6393843d6c70bf50bcb812"
+    },
+    "rbkf_l1/expected_cov_predict.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 500,
+      "sha256": "18fc54b9e2116368219b4697e17be5c169ba5a654fca925dafe951aa41af15ed"
+    },
+    "rbkf_l1/expected_determinant.mem": {
+      "element_width": 20,
+      "elements_per_record": 1,
+      "records": 500,
+      "sha256": "ee7dd5b9ca4b2251338dd3ccf3612170f9f953ffddcd56aef45b1e6c4c1736c1"
+    },
+    "rbkf_l1/expected_gain.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 500,
+      "sha256": "12acf15a76d6dfdf1c264f945d2a95e27de31910ac7642102853244e3d48e106"
+    },
+    "rbkf_l1/expected_reduced_cov.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 500,
+      "sha256": "a70166e2545f45a2dd121f7b4ca7b7906a4952b1521f1724debde01b18b21e9b"
+    },
+    "rbkf_l1/expected_reduced_observation.mem": {
+      "element_width": 20,
+      "elements_per_record": 3,
+      "records": 500,
+      "sha256": "83e47cc302be5b2b5a4ecc2c33f4b2cdaa6078fe3291380fcedf330de78180f7"
+    },
+    "rbkf_l1/expected_state.mem": {
+      "element_width": 20,
+      "elements_per_record": 3,
+      "records": 500,
+      "sha256": "556354e47d8412416cbb2bce134a2dcbc9293416f063a63e97373c8e8ee43ab4"
+    },
+    "rbkf_l1/expected_threshold.mem": {
+      "element_width": 20,
+      "elements_per_record": 3,
+      "records": 500,
+      "sha256": "bc6b181b5e51b9efa5216bb291cdb92d7c010a4bf742921cc57b81ddde33b82f"
+    },
+    "rbkf_l1/f_matrix.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 500,
+      "sha256": "59cde3c67fe80ea9cc150e8a279a14a6bea9c2553c722e24ca6bb9dce1572b32"
+    },
+    "rbkf_l1/measurement.mem": {
+      "element_width": 20,
+      "elements_per_record": 3,
+      "records": 500,
+      "sha256": "55b6fc3553292f1f61ca9682f1067f671b58465a5cc12d3477df877bf8a6d13e"
+    },
+    "rbkf_l8/branch_observation_bits.mem": {
+      "element_width": 1,
+      "elements_per_record": 24,
+      "records": 500,
+      "sha256": "c327a541bf3d07d5bcbd2183506e406f065987819c445702280f66b744016a17"
+    },
+    "rbkf_l8/expected_cov.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 500,
+      "sha256": "52d788c35f991be9d97421e25afd34c5a43c7eb17973e0760b3f013df5dbb640"
+    },
+    "rbkf_l8/expected_cov_predict.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 500,
+      "sha256": "171e0a0795aae034444128214fc6c8cc508cad87c9e4ed92714e107504c4e59e"
+    },
+    "rbkf_l8/expected_determinant.mem": {
+      "element_width": 20,
+      "elements_per_record": 1,
+      "records": 500,
+      "sha256": "c3379fa12aa971c94c778c76baadb36cc7189be5eaae568e6ae63389055be87b"
+    },
+    "rbkf_l8/expected_gain.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 500,
+      "sha256": "1ff271c11430718e47186568cad6f099ef592f1e6c6aded509109c329a66df89"
+    },
+    "rbkf_l8/expected_reduced_cov.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 500,
+      "sha256": "135ada4defb111ea4930eca7f33b1426d079b67f453f468201ed11462111567b"
+    },
+    "rbkf_l8/expected_reduced_observation.mem": {
+      "element_width": 20,
+      "elements_per_record": 3,
+      "records": 500,
+      "sha256": "b8a00c305172b925a5aa3f3601fc9a1b9aaeb134647ff1d729579b89bdeb5b6b"
+    },
+    "rbkf_l8/expected_state.mem": {
+      "element_width": 20,
+      "elements_per_record": 3,
+      "records": 500,
+      "sha256": "70bfba0ca46ade6c7f2a04bcfc19a6bb5c39c07c7d7e0c6975d0b01286697b4a"
+    },
+    "rbkf_l8/expected_threshold.mem": {
+      "element_width": 20,
+      "elements_per_record": 3,
+      "records": 500,
+      "sha256": "55a0b57d8b26b5a0d7d082b155110d6273e03bafb0810a73571f1f791146e73d"
+    },
+    "rbkf_l8/f_matrix.mem": {
+      "element_width": 20,
+      "elements_per_record": 9,
+      "records": 500,
+      "sha256": "81e8c6ff2835130d7835f684be43a9c0b69987aead8d8f70c604bfaade82129a"
+    },
+    "rbkf_l8/measurement.mem": {
+      "element_width": 20,
+      "elements_per_record": 24,
+      "records": 500,
+      "sha256": "87abdef6dcce52ffe9c9d007b10e68abddc6bc55784da75545662985da39ed00"
+    }
+  },
+  "fractional_bits": 12,
+  "matrix_order": "row-major, element zero in least-significant 20-bit slice",
+  "observation_encoding": "one bit: 1=+1, 0=-1; equality maps to +1",
+  "q_format": "signed Q8.12",
+  "schema_version": 1,
+  "seed": 20260820,
+  "signed_width": 20,
+  "steps": 500,
+  "vector_set_sha256": "474cfe0b76b373ae068b2c35feeadf44099b683add409963b1b741413e5d5dd5"
+}

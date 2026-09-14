@@ -1,0 +1,20 @@
+command: ["bash", "scripts/run_unit_tests.sh"]
+PASS: divider directed=27 randomized=2000 protocol=2 mismatch=0 seed=20260830 latency_nonzero=39 latency_div0=0 initiation_interval_nonzero=40 accepted=2029 completed=2029
+tb/unit/tb_fx_divider_q8_16.v:400: $finish called at 811051000 (1ps)
+PASS: determinant finalize directed=18 protocol=2 mismatch=0 latency=3 accepted=20 completed=20
+tb/unit/tb_fx_determinant_finalize_pipeline.v:396: $finish called at 1190000 (1ps)
+PASS: bkf covariance pipeline directed=5 reset_flush=1 mismatch=0 threshold_latency=285
+tb/unit/tb_bkf_covariance_pipeline.sv:488: $finish called at 21640000 (1ps)
+PASS: current EKF overflow pipeline seed=20260831 directed=21 randomized=2000 sticky_sequences=5 transactions=2073
+tb/unit/tb_ekf_overflow_pipeline.sv:611: $finish called at 61916000 (1ps)
+PASS: q8_16 arithmetic (8029 checks)
+tb/unit/tb_q8_16_arithmetic.v:318: $finish called at 8029000 (1ps)
+PASS: q8_16 nonlinear LUT endpoint tests
+tb/unit/tb_q8_16_nonlinear_luts.v:209: $finish called at 586000 (1ps)
+PASS: q8_16 matrix and sequential solver units (89 checks)
+tb/unit/tb_q8_16_matrix.v:106: $finish called at 92590000 (1ps)
+PASS: reset and ready/valid backpressure behavior
+tb/integration/tb_bkf_handshake.sv:173: $finish called at 12890000 (1ps)
+PASS: EKF input delay and result backpressure
+tb/integration/tb_ekf_handshake.sv:92: $finish called at 12141000 (1ps)
+PASS: all 9 arithmetic/nonlinear/matrix/determinant/covariance/overflow/handshake regressions

@@ -1,0 +1,2 @@
+PASS: q8_16 arithmetic (8029 checks)
+tb/unit/tb_q8_16_arithmetic.v:318: $finish called at 8029000 (1ps)

@@ -1,0 +1,2 @@
+PASS: reset and ready/valid backpressure behavior
+tb/integration/tb_bkf_handshake.sv:173: $finish called at 12530000 (1ps)

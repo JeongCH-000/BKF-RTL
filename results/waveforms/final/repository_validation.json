@@ -1,0 +1,269 @@
+{
+  "audit_after": {
+    "archived_input_files_checked": 71,
+    "current_model_and_inputs_sha256": "4dae77a96029fcb804bf5f1c9271a9e1b9bc27ed82e50481717a6dc4152b2c38",
+    "observer_sha256": "05468e701c829e99daf580982c0052aad3383fda29a1a6de1cb624fda16afa17"
+  },
+  "audit_before": {
+    "archived_input_files_checked": 71,
+    "current_model_and_inputs_sha256": "4dae77a96029fcb804bf5f1c9271a9e1b9bc27ed82e50481717a6dc4152b2c38",
+    "observer_sha256": "05468e701c829e99daf580982c0052aad3383fda29a1a6de1cb624fda16afa17"
+  },
+  "commands": [
+    "make -C validation/final_waveform wave_all",
+    "make verify-wave-final",
+    "make -C validation/final_waveform verify-evidence",
+    "make -C validation/final_waveform test-validator verify-evidence verify"
+  ],
+  "debug_steps": 10,
+  "designs": {
+    "bkf_l1": {
+      "covariance_mismatches": 0,
+      "final_cycle_csv_match": "PASS",
+      "final_output_csv_match": "PASS",
+      "fixed_model_recomputed": {
+        "fields_compared": 13,
+        "reference_files_overwritten": false,
+        "status": "PASS",
+        "stimulus": "reconstructed from variant nominal configuration"
+      },
+      "initiation_interval_cycles": 1307,
+      "python_match": "PASS",
+      "simulation": "PASS",
+      "simulation_modes": [
+        "baseline",
+        "full",
+        "debug"
+      ],
+      "state_mismatches": 0,
+      "steps_per_run": 500,
+      "testbench_latency_cycles": 1306,
+      "waveforms": {
+        "debug": {
+          "acceptance_to_result_valid_edge_cycles": 1305,
+          "bytes": 3728369,
+          "clock_period_ns": 10,
+          "declared_signals": 642,
+          "first_result_ps": 13135000,
+          "input_handshakes": 10,
+          "last_result_ps": 130765000,
+          "output_handshakes": 10,
+          "path": "waveforms/debug/bkf_l1_debug.vcd",
+          "recording_end_ps": 130776000,
+          "result_pulses": 10,
+          "sha256": "af6de535683e2f29e891f072a92236e8be06e537b424fd02192bd454b53d0440",
+          "timescale": "1ps",
+          "vcd_state_covariance_match": "PASS"
+        },
+        "full": {
+          "acceptance_to_result_valid_edge_cycles": 1305,
+          "bytes": 21401411,
+          "clock_period_ns": 10,
+          "declared_signals": 32,
+          "first_result_ps": 13135000,
+          "input_handshakes": 500,
+          "last_result_ps": 6535065000,
+          "output_handshakes": 500,
+          "path": "waveforms/full/bkf_l1.vcd",
+          "recording_end_ps": 6535080000,
+          "result_pulses": 500,
+          "sha256": "6789b45494ced69437e9cedd634077b1ee22f1de26c1a1cb188f8949528efc8e",
+          "timescale": "1ps",
+          "vcd_state_covariance_match": "PASS"
+        }
+      }
+    },
+    "ekf_l1": {
+      "covariance_mismatches": 0,
+      "final_cycle_csv_match": "PASS",
+      "final_output_csv_match": "PASS",
+      "fixed_model_recomputed": {
+        "fields_compared": 13,
+        "reference_files_overwritten": false,
+        "status": "PASS",
+        "stimulus": "reconstructed from variant nominal configuration"
+      },
+      "initiation_interval_cycles": 1237,
+      "python_match": "PASS",
+      "simulation": "PASS",
+      "simulation_modes": [
+        "baseline",
+        "full",
+        "debug"
+      ],
+      "state_mismatches": 0,
+      "steps_per_run": 500,
+      "testbench_latency_cycles": 1236,
+      "waveforms": {
+        "debug": {
+          "acceptance_to_result_valid_edge_cycles": 1235,
+          "bytes": 3410200,
+          "clock_period_ns": 10,
+          "declared_signals": 676,
+          "first_result_ps": 12435000,
+          "input_handshakes": 10,
+          "last_result_ps": 123765000,
+          "output_handshakes": 10,
+          "path": "waveforms/debug/ekf_l1_debug.vcd",
+          "recording_end_ps": 123776000,
+          "result_pulses": 10,
+          "sha256": "a465dd9196e1d978c82542d6ddceda48896202f7358c9f1b721eb95e64ca7d9b",
+          "timescale": "1ps",
+          "vcd_state_covariance_match": "PASS"
+        },
+        "full": {
+          "acceptance_to_result_valid_edge_cycles": 1235,
+          "bytes": 20323867,
+          "clock_period_ns": 10,
+          "declared_signals": 32,
+          "first_result_ps": 12435000,
+          "input_handshakes": 500,
+          "last_result_ps": 6185065000,
+          "output_handshakes": 500,
+          "path": "waveforms/full/ekf_l1.vcd",
+          "recording_end_ps": 6185080000,
+          "result_pulses": 500,
+          "sha256": "ba645fa9fd122522973778e156b396e397aef3f253726ef908d354882de10d2d",
+          "timescale": "1ps",
+          "vcd_state_covariance_match": "PASS"
+        }
+      }
+    },
+    "rbkf_l1": {
+      "covariance_mismatches": 0,
+      "final_cycle_csv_match": "PASS",
+      "final_output_csv_match": "PASS",
+      "fixed_model_recomputed": {
+        "fields_compared": 13,
+        "reference_files_overwritten": false,
+        "status": "PASS",
+        "stimulus": "reconstructed from variant nominal configuration"
+      },
+      "initiation_interval_cycles": 1307,
+      "python_match": "PASS",
+      "simulation": "PASS",
+      "simulation_modes": [
+        "baseline",
+        "full",
+        "debug"
+      ],
+      "state_mismatches": 0,
+      "steps_per_run": 500,
+      "testbench_latency_cycles": 1306,
+      "waveforms": {
+        "debug": {
+          "acceptance_to_result_valid_edge_cycles": 1305,
+          "bytes": 3851180,
+          "clock_period_ns": 10,
+          "declared_signals": 679,
+          "first_result_ps": 13135000,
+          "input_handshakes": 10,
+          "last_result_ps": 130765000,
+          "output_handshakes": 10,
+          "path": "waveforms/debug/rbkf_l1_debug.vcd",
+          "recording_end_ps": 130776000,
+          "result_pulses": 10,
+          "sha256": "eaa6e22f11e1308016883da825387f3feb600fdaa5e3f7147fabd850d6e16bfa",
+          "timescale": "1ps",
+          "vcd_state_covariance_match": "PASS"
+        },
+        "full": {
+          "acceptance_to_result_valid_edge_cycles": 1305,
+          "bytes": 21401491,
+          "clock_period_ns": 10,
+          "declared_signals": 32,
+          "first_result_ps": 13135000,
+          "input_handshakes": 500,
+          "last_result_ps": 6535065000,
+          "output_handshakes": 500,
+          "path": "waveforms/full/rbkf_l1.vcd",
+          "recording_end_ps": 6535080000,
+          "result_pulses": 500,
+          "sha256": "4312473a182828151aed37a710b5dd2b855975928057c3b8d3f2abb0cf6a687a",
+          "timescale": "1ps",
+          "vcd_state_covariance_match": "PASS"
+        }
+      }
+    },
+    "rbkf_l8": {
+      "covariance_mismatches": 0,
+      "final_cycle_csv_match": "PASS",
+      "final_output_csv_match": "PASS",
+      "fixed_model_recomputed": {
+        "fields_compared": 13,
+        "reference_files_overwritten": false,
+        "status": "PASS",
+        "stimulus": "reconstructed from variant nominal configuration"
+      },
+      "initiation_interval_cycles": 1343,
+      "python_match": "PASS",
+      "simulation": "PASS",
+      "simulation_modes": [
+        "baseline",
+        "full",
+        "debug"
+      ],
+      "state_mismatches": 0,
+      "steps_per_run": 500,
+      "testbench_latency_cycles": 1342,
+      "waveforms": {
+        "debug": {
+          "acceptance_to_result_valid_edge_cycles": 1341,
+          "bytes": 3743972,
+          "clock_period_ns": 10,
+          "declared_signals": 679,
+          "first_result_ps": 13495000,
+          "input_handshakes": 10,
+          "last_result_ps": 134365000,
+          "output_handshakes": 10,
+          "path": "waveforms/debug/rbkf_l8_debug.vcd",
+          "recording_end_ps": 134376000,
+          "result_pulses": 10,
+          "sha256": "0d24dc6488550ea1c315ce0d8907bd957ca22e184e536796bd2b9332acd4a514",
+          "timescale": "1ps",
+          "vcd_state_covariance_match": "PASS"
+        },
+        "full": {
+          "acceptance_to_result_valid_edge_cycles": 1341,
+          "bytes": 21906396,
+          "clock_period_ns": 10,
+          "declared_signals": 32,
+          "first_result_ps": 13495000,
+          "input_handshakes": 500,
+          "last_result_ps": 6715065000,
+          "output_handshakes": 500,
+          "path": "waveforms/full/rbkf_l8.vcd",
+          "recording_end_ps": 6715080000,
+          "result_pulses": 500,
+          "sha256": "88759717f7377cd06d710c9739af0cf5a9074b8d087d972df5904e16ac34df4f",
+          "timescale": "1ps",
+          "vcd_state_covariance_match": "PASS"
+        }
+      }
+    }
+  },
+  "generated_at": "2026-09-14T18:21:58+0900",
+  "iverilog": "Icarus Verilog version 13.0 (stable) (v13_0)",
+  "numpy": "2.5.1",
+  "project": "validation/final_waveform",
+  "provenance_note": "Fresh repository simulation and VCD recheck; source-run evidence remains separately in summary.json. Python 3.12.6 with NumPy 2.5.1 was selected through the PYTHON override. VCD paths are relative to workspace and generated files are not tracked.",
+  "python": "3.12.6",
+  "source_variant": "variants/05_ekf_overflow_pipeline",
+  "status": "PASS",
+  "validator_sha256": "e48612bd0ca81c72d63b41c1828b9f95026a9fe12e3822fcb96c2d4491e1139b",
+  "validator_tests": {
+    "original_evidence_passes": true,
+    "rejected_mutations": [
+      "duplicate cycle step",
+      "inconsistent result_cycle",
+      "1ps changed to 1ns",
+      "missing timescale",
+      "duplicate timescale",
+      "unterminated timescale"
+    ],
+    "status": "PASS",
+    "tests_run": 7
+  },
+  "verification_mode": "verify-only after fresh full wave_all simulation",
+  "workspace": "validation/final_waveform/.work"
+}

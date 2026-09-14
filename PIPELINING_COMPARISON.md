@@ -1,6 +1,6 @@
 # Pipelining Stage Comparison
 
-이 문서는 다섯 구현 단계와 configuration의 알고리즘 오차, latency, FPGA 자원, timing, power를 한 표에서 비교함.
+이 문서는 Q8.16의 다섯 구현 단계와 configuration의 알고리즘 오차, latency, FPGA 자원, timing, power를 한 표에서 비교함. 이후 추가한 Q8.14/Q8.12 실험은 [BITWIDTH_COMPARISON.md](BITWIDTH_COMPARISON.md)에서 비교함. 비트폭을 바꾼 `06`/`07`에는 아래의 단계 간 MSE 동일성 결론을 적용하지 않음.
 
 ## 비교 조건과 해석
 
